@@ -2,16 +2,34 @@
   margin:0;
   padding:0;
 }
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  display: inline;
+}
+h2{
+  font-size: 2em;
+}
+
+
+/*to hide the drop down options*/
+.hidden{
+  display: none;
+}
+ul .hidden{
+  display: none
+}
+
 section{
   color#FFFFFF;
-    font-family:Abril Fatface, sans-serif;
+
 
 }
+
+
 img {
-   position: absolute;
-   left: 700px;
-   top: 0px;
-   z-index: 0;
+
 }
 section h1 {
 
@@ -26,48 +44,73 @@ figure figure1{
 
 }
 figure img{
+  position: absolute;
+  left: 870px;
+  top:20px;
+  height: 210px;
+  width: 210px;
 
 }
 # figure1{
-
 
 }
 
 body{
   background-color: red;
 }
+address h2{
+  font-size: 5em;
+}
+section iframe{
+  margin: 0 auto;
+  width="600";
+  height="450" ;
+  frameborder="0" ;
+  style="border:0"
+}
+#mapcontainer{
+  text-align: center;
+}
+
+
+
 footer{
   margin-bottom: 0%;
-  background-color:gray;
+  background-color:orange;
   text-align: center;
   padding:2em 0 2em 0;
   border-top:solid 2px #FFFFFF;
   font-style: italic;
   color: white;
-  width: 960px;
 
 }
 footer img{
-    style="width:42px;height:42px;border:0;
+    width:70px;
+    height:70px;
+    border:0;
 }
 #facebookicon{
 position:relative;
 
 
 }
+#images{
+  position:relative;
+}
 #banner{
-
-  background-image: url("images/corkystore.jpg");
+  background-image: url("../images/food/trasparentcolor-image.png");
   background-size: 100%;
-  width: 1000px;
-  height:200px;
+  height:250px;
+
 
 }
 #banner h1{
   color: #ffff66;
+  font-family:Abril Fatface, sans-serif;
   text-align: center;
   text-shadow: 2px 2px 1px #333333;
   font-size:6em;
+  padding-top: 20px;
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
@@ -75,11 +118,15 @@ position:relative;
 }
 #banner h2{
   color:#ffcc66;
-font-family: Monoton, sans-serif;
+  text-align: center;
+  font-size:3em;
+  padding-top: 18px;
 
-font-size:3em;
-position: absolute;
-left: 400px;
-top:110px;
+}
+#banner figure{
+
+
+}
+#figure1{
 
 }
