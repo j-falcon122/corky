@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+section{
+  color#FFFFFF;
+    font-family:Abril Fatface, sans-serif;
+
+}
+img {
+   position: absolute;
+   left: 700px;
+   top: 0px;
+   z-index: 0;
+}
+section h1 {
+
+
+}
+section h2 {
+
+}
+figure figure1{
+
+
+
+}
+figure img{
+
+}
+# figure1{
+
+
+}
+
+body{
+  background-color: red;
+}
+footer{
+  margin-bottom: 0%;
+  background-color:gray;
+  text-align: center;
+  padding:2em 0 2em 0;
+  border-top:solid 2px #FFFFFF;
+  font-style: italic;
+  color: white;
+  width: 960px;
+
+}
+footer img{
+    style="width:42px;height:42px;border:0;
+}
+#facebookicon{
+position:relative;
+
+
+}
+#banner{
+
+  background-image: url("images/corkystore.jpg");
+  background-size: 100%;
+  width: 1000px;
+  height:200px;
+
+}
+#banner h1{
+  color: #ffff66;
+  text-align: center;
+  text-shadow: 2px 2px 1px #333333;
+  font-size:6em;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+
+}
+#banner h2{
+  color:#ffcc66;
+font-family: Monoton, sans-serif;
+
+font-size:3em;
+position: absolute;
+left: 400px;
+top:110px;
+
+}
