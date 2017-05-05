@@ -1,23 +1,37 @@
-/*
-  This script generates mock data for local development.
-  This way you don't have to point to an actual API,
-  but can enjoy realistic, but randomized data,
-  and rapid page loads due to local, static data.
-*/
+import express from 'express';
+import path from 'path';
+import open from 'open';
+import webpack from 'webpack';
+import config from '../webpack.config.dev';
 
 /* eslint-disable no-console */
 
-import jsf from 'json-schema-faker';
-import {schema} from './mock_products_schema';
-import fs from 'fs';
-import chalk from 'chalk';
+const port = 3000;
+const app = express();
+const compiler = webpack(config);
 
-const json = JSON.stringify(jsf(schema));
+app.use(require('webpack-dev-middleware')(compiler, {
+  noInfo: true,
+  publicPath: config.output.publicPath
+}));
 
-fs.writeFile("./src/api/db.json", json, function (err) {
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, '../src/index.html'));
+});
+
+app.get('/products', function (req, res) {
+  // res.json({"a":"b"});
+  res.json([
+    {"id": 1, "name":"Joe Rocket Atomic 5.0", "desc":"multi-season textile"},
+    {"id": 2, "name":"Alpinestarts GP Plus", "desc":"perforated leather jacket"},
+    {"id": 3, "name":"Dainese Super Speed", "desc":"textile jacket"}
+  ]);
+})
+
+app.listen(port, function(err) {
   if (err) {
-    return console.log(chalk.red(err));
+    console.log(err);
   } else {
-    console.log(chalk.green("Mock data generated"));
+    open('http://localhost:' + port);
   }
 });

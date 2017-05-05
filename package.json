@@ -13,13 +13,13 @@
     "share": "npm-run-all --parallel start-server localtunnel",
     "test": "mocha --reporter progress scripts/test.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch",
-    "generate-mock-data":"babel-node scripts/generate_mock_data.js",
-    "prestart-mockapi":"npm run generate-mock-data",
+    "generate-mock-data": "babel-node scripts/generate_mock_data.js",
+    "prestart-mockapi": "npm run generate-mock-data",
     "start-mockapi": "json-server --watch src/api/db.json --port 3001",
-    "clean-dist":"rimraf ./dist && mkdir dist",
-    "prebuild":"npm-run-all clean-dist test lint",
-    "build":"babel-node scripts/build.js",
-    "postbuild":"babel-node scripts/prod_server.js"
+    "clean-dist": "rimraf ./dist && mkdir dist",
+    "prebuild": "npm-run-all clean-dist test lint",
+    "build": "babel-node scripts/build.js",
+    "postbuild": "babel-node scripts/prod_server.js"
   },
   "author": "Developer Name",
   "license": "MIT",
@@ -60,5 +60,14 @@
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
     "webpack-md5-hash": "0.0.5"
-  }
+  },
+  "main": "webpack.config.dev.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-falcon122/corky.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j-falcon122/corky/issues"
+  },
+  "homepage": "https://github.com/j-falcon122/corky#readme"
 }

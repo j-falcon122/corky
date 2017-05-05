@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://traincube-5814d.firebaseio.com/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://corky-b3c89.firebaseio.com';
 }
 
 function getQueryStringParameterByName(name, url) {

@@ -1,23 +1,36 @@
-/*
-  This script generates mock data for local development.
-  This way you don't have to point to an actual API,
-  but can enjoy realistic, but randomized data,
-  and rapid page loads due to local, static data.
-*/
+// More info on Webpack's Node API here: https://webpack.github.io/docs/node.js-api.html
+// Allowing console calls below since this is a build file.
 
 /* eslint-disable no-console */
-
-import jsf from 'json-schema-faker';
-import {schema} from './mock_products_schema';
-import fs from 'fs';
+import webpack from 'webpack';
+import webpackConfig from '../webpack.config.prod';
 import chalk from 'chalk';
 
-const json = JSON.stringify(jsf(schema));
+process.env.NODE_ENV = 'production'; // this assures the Babel dev config doesn't apply.
 
-fs.writeFile("./src/api/db.json", json, function (err) {
-  if (err) {
-    return console.log(chalk.red(err));
-  } else {
-    console.log(chalk.green("Mock data generated"));
+console.log(chalk.blue('Generating minified bundle for production. This will take a moment...'));
+
+webpack(webpackConfig).run((err, stats) => {
+  if (err) { // so a fatal error occurred. Stop here.
+    console.log(chalk.red(err));
+    return 1;
   }
+
+  const jsonStats = stats.toJson();
+
+  if (jsonStats.hasErrors) {
+    return jsonStats.errors.map(error => console.log(chalk.red(error)));
+  }
+
+  if (jsonStats.hasWarnings) {
+    console.log(chalk.yellow('Webpack generated the following warnings: '));
+    jsonStats.warnings.map(warning => console.log(chalk.yellow(warning)));
+  }
+
+  console.log(`Webpack stats: ${stats}`);
+
+  // if we got this far, the build succeeded.
+  console.log(chalk.green('Your app has been built for production and written to /dist!'));
+
+  return 0;
 });
