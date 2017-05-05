@@ -50,9 +50,33 @@ footer{
 footer img{
     style="width:42px;height:42px;border:0;
 }
+
+/*Nav Styles*/
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  display: inline;
+}
+
+/*to hide the drop down options*/
+.hidden{
+  display: none;
+}
+ul .hidden{
+  display: none
+}
+
+/*Main image*/
+#images img{
+  width: auto;
+  height: 250px;
+}
+
 #facebookicon{
 position:relative;
-
+width: 4em;
+height: 4em;
 
 }
 #banner{
@@ -81,5 +105,8 @@ font-size:3em;
 position: absolute;
 left: 400px;
 top:110px;
+
+}
+/*Ul that go inline*/
 
 }
