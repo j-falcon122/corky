@@ -13,7 +13,17 @@
 	<link rel="stylesheet" type="text/css" href="">
 
 	<!--Javascript-->
-	<script src=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+  $(document).ready(function(){
+    $("#eggPlaters").click(function(){
+      $("#egglist").toggle();
+      });
+     $("#sandwichbutt").click(function(){
+      $("#sandwichlist").toggle();
+      });
+    });
+  </script>
 </head>
 <body>
 <header>
@@ -39,14 +49,97 @@
 	</header>
 <main>
 	<h2>Breakfast</h2>
+  <h4>Served all day!</h4>
 
-	<table>
-		<caption>Fresh Eggs</caption>
-		<tr>
-			<td>Two Eggs any style</td>
-			<td>$4.95</td>
-		</tr>
-	</table>
+  <section id="eggs">
+  <button id="eggPlaters">Fresh Egg Platers</button>
+
+  <ul id="egglist">
+      <li>
+        <ul clas="inliners">
+          <li>Two Eggs any style</li>
+          <li>$4.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With Ham or Bacon or Sausage</li>
+          <li>$6.75</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With hash or beef Sausage</li>
+          <li>$7.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With fish filet or grilled chicken</li>
+          <li>$7.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With turkey bacon or turkey sausage</li>
+          <li>$7.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>Hot sausage or Virginia Ham</li>
+          <li>$7.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>Steak and Eggs</li>
+          <li>$13.95</li>
+        </ul>
+      </li>
+  </ul>
+
+</section>
+
+<section id="egg_sandwich">
+
+<button id="sandwichbutt">Egg Sandwiches</button>
+
+ <ul id="sandwichlist">
+    <caption>Extra chesese .50&cents; • Extra egg .75&cents; • Extra wrap $1.00</caption>
+      <li>
+        <ul clas="inliners">
+          <li>Fried or Scrambled Eggs(2)</li>
+          <li>$3.00</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With ham or bacon or sausage</li>
+          <li>$4.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With beef sausage or hot sausage</li>
+          <li>$4.50</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With turkey bacon or turkey sausage</li>
+          <li>$4.50</li>
+        </ul>
+      </li>
+      <li>
+        <ul clas="inliners">
+          <li>With pastrami or grilled chicken or turkey</li>
+          <li>$5.50</li>
+        </ul>
+      </li>
+
+  </ul>
+</section>
 
 
 
