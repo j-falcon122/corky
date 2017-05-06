@@ -25,3 +25,34 @@ nav li a{
   color:white;
   text-transform: uppercase;
 }
+h2{
+  text-align: center;
+}
+p{
+  font-size: 2em;
+  text-align: center;
+}
+form{
+width: 300px;
+margin: auto;
+}
+input{
+  display:block;
+  margin-bottom: .5em;
+  width: 40em;
+}
+footer{
+  margin-bottom: 0%;
+  background-color:orange;
+  text-align: center;
+  padding:2em 0 2em 0;
+  border-top:solid 2px #FFFFFF;
+  font-style: italic;
+  color: white;
+
+}
+footer img{
+    width:70px;
+    height:70px;
+    border:0;
+}
