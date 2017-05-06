@@ -63,3 +63,7 @@ nav .container{
 .show {
     display: block;
 }
+
+.wrapper{
+  margin: 0 3 0 3;
+}
