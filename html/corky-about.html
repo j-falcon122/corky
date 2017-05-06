@@ -11,9 +11,10 @@
 
 
 	<link rel="stylesheet" media="screen" type="text/css" href="../css/corky-about.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
 
 	<!--Javascript-->
-	<script src=""></script>
+	<script src="../js/dropdown.js"></script>
 </head>
 <body>
 <header>
@@ -22,19 +23,20 @@
 
 		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
 		<nav>
-      <ul>
-        <li><a href="corky-home.html">Home</a></li>
-        <li><a href="#">Menu</a>
-          <ul>
-            <li><a href="corky-breakfast.html">Breakfast</a></li>
-            <li><a href="corky-lunch.html">Lunch</a></li>
-            <li><a href="corky-AppDrink.html">Appeizers and Drinks</a></li>
-          </ul>
-        </li>
-        <li><a href="corky-about.html">About Us</a></li>
-        <li><a href="corky-contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        <div class="container">
+        <a href="corky-home.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Menu</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="corky-breakfast.html">Breakfast</a>
+            <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-appdrink.html">Appitizers and Drinks</a>
+          </div>
+        </div>
+        <a href="corky-about.html">About Us</a>
+        <a href="corky-contact.html">Contact Us</a>
+      </div>
+     </nav>
 	</header>
 
 
