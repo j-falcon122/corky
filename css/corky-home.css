@@ -126,7 +126,7 @@ ul .hidden{
 }
 
 /*Main image*/
-#images img{
+section img{
   width: auto;
   height: 250px;
 }
