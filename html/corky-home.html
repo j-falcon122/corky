@@ -11,8 +11,10 @@
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
+  <link rel="stylesheet" href="../css/corky-slideshow.css">/
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="../scripts/corky-slideshow.js"></script>
 
   <script>
   $(document).ready(function(){
@@ -58,7 +60,27 @@
 		<!--Promotional info, like a image wheel or something -->
 
 		<section id="images">
-			<img src="../images/food/diner breakfast.jpg">
+
+
+			    <div class="slideshow-container">
+            <h1>Corky Diner Specials</h1>
+            <h2 id="caption">Apple Pie</h2>
+            <img class="slideshow" id="slide" src="../images/food/apple-pie-slice.jpg" alt="">
+            <div class="slideshow" id="slides">
+                <img src="../images/food/beef-burger.jpg" alt="Beef Burger">
+                <img src="../images/food/cheese-quesadilla.jpg" alt="Cheese Quesadilla">
+                <img src="../images/food/broiled-tilapia-or-salmon-with-potatoes.jpg" alt="Broiled Tilapia">
+                <img src="../images/food/philly-cheese-steak.jpg" alt="Philly Cheese Steak">
+                <img src="../images/food/french-toast.jpg" alt="French Toast">
+                <img src="../images/food/apple-pie-slice.jpg" alt="Apple Pie">
+            </div>
+
+        </div>
+        <br>
+    </div>
+
+
+
 		</section>
 
 		<!--Add location data of corky's, or move to the top and only leave the map here-->
