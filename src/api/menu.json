@@ -8,56 +8,119 @@
             { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
             { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
             { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.25", "addtiional":""},
             { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
             { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
-          ], "extra":""},
+          ], "extra":""
+        },
         {"Egg Sandwiches":
           [
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
-          ], "extra":""},
+            { "name":"Fried or Scrambled", "price":"$3.00", "addtiional":""},
+            { "name":"With choice of cheese", "price":"$3.50", "addtiional":""},
+            { "name":"With ham or Bacon or sausage", "price":"$4.25", "addtiional":""},
+            { "name":"With beef sausage or hot sausage", "price":"$4.50", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$4.50", "addtiional":""},
+            { "name":"With pastrami or grilled chicken or turkey", "price":"$3.25", "addtiional":""}
+          ], "extra":"Any sanwich with cheese is $0.50 extra. Extra egg $0.75, Extra wrap $1.00" },
         {"French Toast":
           [
-            { "name":"Two Eggs any style", "price":"$4.95"},
-            { "name":"With Ham or Bacon or Sausage", "price":"$6.75"},
-            { "name":"With hash or beef Sausage", "price":"$7.25"},
-            { "name":"With fish filet or grilled chicken", "price":"$7.95"},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25"},
-            { "name":"Hot sausage or Virginia Ham", "price":"$7.25"},
-            { "name":"Steak and Eggs", "price":"$13.95"}
+            { "name":"French Toast", "price":"$5.50", "addtiional":""},
+            { "name":"With Banana or strawberries", "price":"$6.95", "addtiional":""},
+            { "name":"With hash", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.75", "addtiional":""},
+            { "name":"With ham or Bacon or sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With two eggs an meat", "price":"$8.25", "addtiional":""},
+            { "name":"Royal French Foast with Fruit, walnuts & syrup", "price":"$", "addtiional":""},
+            { "name":"Monte Cristo", "price":"$7.95", "addtiional":"(turkey, swiss cheese melt"}
           ], "extra":""},
         {"Pancakes":
           [
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+            { "name":"Pancakes", "price":"$5.25", "addtiional":""},
+            { "name":"With Bacon, ham or sausage", "price":"$6.95", "addtiional":""},
+            { "name":"With banana or strawberries or walnuts or chochalate chips", "price":"$6.95", "addtiional":""},
+            { "name":"With hash or hot sausage", "price":"$7.75", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.50", "addtiional":""},
+            { "name":"With two eggs and meat", "price":"$8.25", "addtiional":""},
+            { "name":"Royal Pancakes with fruits, walnuts & syrup", "price":"$8.25", "addtiional":""}
           ], "extra":""},
         {"Waffles":
           [
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+            { "name":"Plain Waffles", "price":"$5.95", "addtiional":""},
+            { "name":"With Bacon, ham or sausage", "price":"$7.95", "addtiional":""},
+            { "name":"With Ice cream & Whip Cream", "price":"$7.95", "addtiional":""},
+            { "name":"With Fruit", "price":"$7.25", "addtiional":""},
+            { "name":"With two eggs and meat", "price":"$3.25", "addtiional":""},
+            { "name":"Royal Waffels with Fruit", "price":"$3.25", "addtiional":""}
           ], "extra":""},
         {"Breakfast Sandwiches & Wraps":
           [
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
-          ], "extra":""}
+            { "name":"Tex Mex Wrap", "price":"$5.95", "addtiional":"(Two eggs scrambled with onions, green peppers, hot sausage, home fries and cheddar cheese wrapped in a flour tortilla"},
+            { "name":"Santa Fe Wrap", "price":"$5.95", "addtiional":"Two eggs scrambled with avacado, tomato, monterey & cheddar cheese, home fries wrapped in a flour tortilla"},
+            { "name":"San Francisco Quesadilla", "price":"$6.45", "addtiional":"Two eggs scrambled with fresh turkey, grilled onions, peppers, tomato with cheddar cheese in a flour tortilla"},
+            { "name":"Healthy Start Wrap", "price":"$6.45", "addtiional":"Frech turkey, egg white, spinach, and swiss chess rolled in to a flour tortilla"},
+            { "name":"Western Omellete Wrap", "price":"$5.95", "addtiional":"onion, pepper & ham"}
+          ], "extra":""},
+          {"3 Eggs Omelettes Platters":
+          [
+            { "name":"Classic Cheese", "price":"$5.95", "addtiional":"American, Swiss, Mozzarela, Cheddar, Pepper Jack Cheese"},
+            { "name":"Wastern Ham", "price":"$5.95", "addtiional":""},
+            { "name":"Tex Mex", "price":"$6.45", "addtiional":"Tomato, Jalepeno, Onion, Cheddar, Ham"},
+            { "name":"Vegetarian", "price":"$6.45", "addtiional":"Onion, Tomato, Pepper, Mushrooms"},
+            { "name":"Greek", "price":"$5.95", "Feta Cheese, Tomato, Onion"},
+            { "name":"East Coast", "price":"$5.95", "addtiional":"Spinach, Mushrooms, Swiss"},
+            { "name":"Bacon, Ham or Sausage", "price":"$5.95", "addtiional":""},
+            { "name":"Comboy", "price":"$5.95", "addtiional":"Onion, Tomato, Ham"},
+            { "name":"Mid-West", "price":"$5.95", "addtiional":"Brocoli & Cheddar Cheese"},
+            { "name":"Corky's Meat Lovers", "price":"$5.95", "addtiional":"Bacon, Sausage, Ham, and choice of cheese"},
+            { "name":"Pastrami or Corned Beef", "price":"$5.95", "addtiional":""},
+            { "name":"Ham & Cheese", "price":"$5.95", "addtiional":""},
+            { "name":"Gyro Omellete", "price":"$5.95", "addtiional":""}
+            { "name":"NY Omellete", "price":"$5.95", "addtiional":"Turkey, Tomato, Swiss cheese"},
+          ], "extra":"Served with home fries french fries, grits, or toast. $1.00 extra for cheese"
+        },
+          {"Bakery":
+          [
+            { "name":"Buttered Toast", "price":"$1.25", "addtiional":""},
+            { "name":"Toasted Bagel", "price":"$1.50", "addtiional":"Plain, Sesame & Cinamon Rasin"},
+            { "name":"Toaster Bagel w/ Cream Cheese", "price":"$2.50", "addtiional":""},
+            { "name":"Toasted English", "price":"$1.50", "addtiional":""},
+            { "name":"Toasted Hard Roll", "price":"$1.50", "addtiional":""},
+            { "name":"Croissant", "price":"$2.00", "addtiional":""},
+            { "name":"Assorted Danish", "price":"$2.25", "addtiional":""},
+            { "name":"Assorted Muffins", "price":"$2.00", "addtiional":""},
+            { "name":"Assorted Donuts", "price":"$1.00", "addtiional":""}
+          ], "extra":""
+        },
+          {"Hot Cereal":
+         [
+            { "name":"Hot Oatmeal", "price":"$2.75", "addtiional":""},
+            { "name":"With Strawberriess", "price":"$3.50", "addtiional":""},
+            { "name":"With Banana w/ Cream Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"With Rasin", "price":"$3.25", "addtiional":""}
+          ], "extra":""},
+         {"Side orders":
+          [
+            { "name":"Ham, Bacon or Sausage", "price":"$3.50", "addtiional":""},
+            { "name":"Turkey Sausages", "price":"$3.75", "addtiional":"Plain, Sesame & Cinamon Rasin"},
+            { "name":"Beef Sausages or Hash", "price":"$3.75", "addtiional":""},
+            { "name":"Turkey Bacon", "price":"$3.75", "addtiional":""},
+            { "name":"Homefries", "price":"$3.25", "addtiional":""},
+            { "name":"Grits", "price":"$2.00", "addtiional":""},
+            { "name":"Sweet Potato Frnech Fries", "price":"$3.95", "addtiional":""},
+            { "name":"Hash Browns", "price":"$3.00", "addtiional":""}
+          ], "extra":""
+        },
+        {"Tripple Decker Club Sandwiches":
+          [
+            { "name":"Ham & Swiss", "price":"$6.95", "addtiional":""},
+            { "name":"Roast beef with Swiss Cheese", "price":"$7.45", "addtiional":"Plain, Sesame & Cinamon Rasin"},
+            { "name":"Turkey with bacon", "price":"$7.45", "addtiional":""},
+            { "name":"Tuna fish and sliced egg", "price":"$7.45", "addtiional":""},
+            { "name":"Egg Salad and bacon", "price":"$7.45", "addtiional":""},
+            { "name":"Grilled Chicken avacado and Swiss cheese", "price":"$7.45", "addtiional":""},
+            { "name":"Grilled Chicken Bacon and Swiss Cheese", "price":"$7.45", "addtiional":""}
+          ], "extra":""
+        }
       ]
     },
     { "Lunch":
@@ -65,11 +128,35 @@
         {"Sandwiches":
           [
             { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
-            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
-          ], "extra":""
+            { "name":"With Ham, Bacon or Sausage", "price":"$4.50", "addtiional":""},
+            { "name":"Crispy Chicken", "price":"$5.95", "addtiional":""},
+            { "name":"Turkey", "price":"$6.25", "addtiional":""},
+            { "name":"B.L.T.", "price":"$4.25", "addtiional":""},
+            { "name":"Breaded Chicken Parmagiana", "price":"$6.25", "addtiional":""},
+            { "name":"Pastrami or Corned Beef", "price":"$6.95", "addtiional":""},
+            { "name":"Roast Beef", "price":"$6.95", "addtiional":""},
+            { "name":"Fried Fish Filet", "price":"$5.50", "addtiional":""},
+            { "name":"Grilled Chicken", "price":"$6.95", "addtiional":""},
+            { "name":"Tuna Fish", "price":"$5.95", "addtiional":""},
+            { "name":"Ham & Cheese", "price":"$5.50", "addtiional":""},
+            { "name":"Egg Salad", "price":"$3.95", "addtiional":""},
+            { "name":"Tuna Ind", "price":"$6.95", "addtiional":""},
+          ], "extra":"Any sandwich with cheese $0.30 extra. Tomato $0.25. "
+        },
+        {"Classic Wraps & Paninis":
+          [
+            { "name":"Grilled Chicken Caesar", "price":"$6.25", "addtiional":"Grilled Chicken, Romaine Lettuce, Croutons, Parmesane Cheese & Caesar dressing"},
+            { "name":"Philly Cheese Steak", "price":"$6.75", "addtiional":"onion, pepper & american cheese"},
+            { "name":"BLT WRAP", "price":"$6.25", "addtiional":"bacon, lettuce & tomato"},
+            { "name":"Chicken Parmigiana", "price":"$6.75", "addtiional":"breaded chicken cutlet, mozzarella cheese & marinara sauce"},
+            { "name":"Tuna Salad", "price":"$6.75", "addtiional":"lettuce, tomato & american cheese"},
+            { "name":"Beef", "price":"$6.75", "addtiional":"Brisket, Corned Beef, or Pastrami, and jalapeno, lettuce & tomato"},
+            { "name":"Corky's", "price":"$6.25", "addtiional":"grilled chicken, avacado, lettuce & tomato"},
+            { "name":"Greek Wrap", "price":"$6.25", "addtiional":"Gyro meat, lettuce, tomato & white sauce"},
+            { "name":"Mexican", "price":"$6.25", "addtiional":"grilled chicken, onion, jalapeno, pepper jack cheese"},
+            { "name":"Grilled or Crispy Chicken", "price":"$6.25", "addtiional":"american cheese, lettuce & tomato"},
+            { "name":"Bronx Wrap", "price":"$6.25", "addtiional":"roast beef, swiss cheese, sauteed onions, tomatoes & russian dressing"}
+          ], "extra":"Any Wrap with french fries $1.95 extra."
         },
         {"Special Sandwiches":
           [
@@ -136,7 +223,7 @@
             { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
             { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
             { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.25", "addtiional":""},
             { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
             { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
           ], "extra":""
@@ -152,7 +239,7 @@
             { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
             { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
             { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.25", "addtiional":""},
             { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
             { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
           ], "extra":""
@@ -168,7 +255,7 @@
             { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
             { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
             { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.25", "addtiional":""},
             { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
             { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
           ], "extra":""
@@ -184,7 +271,7 @@
             { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
             { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
             { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
-            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With turkey Bacon or turkey sausage", "price":"$7.25", "addtiional":""},
             { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
             { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
           ], "extra":""

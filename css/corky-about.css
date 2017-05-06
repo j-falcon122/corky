@@ -1,33 +1,4 @@
-body{
-  background-color: red;
-
-}
-main{
-
-}
-
-h2{
-  text-align: center;
-}
-
-figure{
-align-content: center;
-
-}
 figure img{
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-figure figcaption{
-padding-top: 50px;
-  width: 700px;
-  margin-left: 0;
-  text-align:left;
-  vertical-align: middle;
-}
-address{
-  clear:both;
-  text-align: center;
-  font-size: 2em;
+  width: 30%;
+  float:left;
 }
