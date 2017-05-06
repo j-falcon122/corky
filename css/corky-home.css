@@ -125,12 +125,6 @@ ul .hidden{
   display: none
 }
 
-/*Main image*/
-section img{
-  width: auto;
-  height: 250px;
-}
-
 #facebookicon{
 position:relative;
 width: 4em;
