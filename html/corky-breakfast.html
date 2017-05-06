@@ -10,7 +10,7 @@
 	<meta charset="UTF-8"/>
 
 	<!--CSS Scripts-->
-	<link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
 
 	<!--Javascript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,8 +22,15 @@
      $("#sandwichbutt").click(function(){
       $("#sandwichlist").toggle();
       });
+     $("#frenchtostbutt").click(function(){
+      $("#toastoptions").toggle();
+      });
+     $("#pancakebutt").click(function(){
+      $("#pancakeoptions").toggle();
+      });
     });
   </script>
+
 </head>
 <body>
 <header>
@@ -51,88 +58,87 @@
 	<h2>Breakfast</h2>
   <h4>Served all day!</h4>
 
-  <section id="eggs">
+<section id="eggs">
   <button id="eggPlaters">Fresh Egg Platers</button>
 
-  <ul id="egglist">
+  <ul id=egglist class="hidden">
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>Two Eggs any style</li>
-          <li>$4.95</li>
+          <li class="menuprice">$4.95</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With Ham or Bacon or Sausage</li>
           <li>$6.75</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With hash or beef Sausage</li>
           <li>$7.25</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With fish filet or grilled chicken</li>
           <li>$7.95</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With turkey bacon or turkey sausage</li>
           <li>$7.25</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>Hot sausage or Virginia Ham</li>
           <li>$7.25</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>Steak and Eggs</li>
           <li>$13.95</li>
         </ul>
       </li>
   </ul>
-
 </section>
 
 <section id="egg_sandwich">
 
-<button id="sandwichbutt">Egg Sandwiches</button>
+  <button id="sandwichbutt">Egg Sandwiches</button>
 
- <ul id="sandwichlist">
+ <ul id="sandwichlist" class="hidden">
     <caption>Extra chesese .50&cents; • Extra egg .75&cents; • Extra wrap $1.00</caption>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>Fried or Scrambled Eggs(2)</li>
           <li>$3.00</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With ham or bacon or sausage</li>
           <li>$4.25</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With beef sausage or hot sausage</li>
           <li>$4.50</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With turkey bacon or turkey sausage</li>
           <li>$4.50</li>
         </ul>
       </li>
       <li>
-        <ul clas="inliners">
+        <ul class="inliners">
           <li>With pastrami or grilled chicken or turkey</li>
           <li>$5.50</li>
         </ul>
@@ -141,9 +147,156 @@
   </ul>
 </section>
 
+<section id="french_toast">
 
+  <button id="frenchtostbutt">French Toast - Challad</button>
+  <ul id="toastoptions" class="hidden">
+      <li>
+        <ul class="inliners">
+          <li>French Toast</li>
+          <li>$5.50</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With banana or strawberries</li>
+          <li>$6.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With hash</li>
+          <li>$7.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With turkey bacon or turkey sausage</li>
+          <li>$7.75</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With ham or bacon or sausage</li>
+          <li>$7.75</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With two eggs and meat</li>
+          <li>$8.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>Royal french toast with fruits, walnuts, and syrup</li>
+          <li>$7.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>Monte Cristo (turkey, swiss cheese melt)</li>
+          <li>$7.95</li>
+        </ul>
+      </li>
+  </ul>
+</section>
 
+<section id="pancakes">
 
+  <button id="pancakebutt">Pancakes</button>
+  <ul id="pancakeoptions" class="hidden">
+      <li>
+        <ul class="inliners">
+          <li>Pancakes</li>
+          <li>$5.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With ham or bacon or sausage</li>
+          <li>$6.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With banana or strawberries or walnuts or chocolate chips</li>
+          <li>$6.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With hash or hot sausage</li>
+          <li>$7.75</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With turkey bacon or turkey sausage</li>
+          <li>$7.50</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With two eggs and meat</li>
+          <li>$8.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>Royal pancake with fruits, walnuts, and syrup</li>
+          <li>$8.25</li>
+        </ul>
+      </li>
+  </ul>
+</section>
+
+<section id="waffles">
+
+  <button id="wafflebutt">Waffles</button>
+  <ul id="waffleoptions" class="hidden">
+      <li>
+        <ul class="inliners">
+          <li>Plain Waffles</li>
+          <li>$5.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With ham or bacon or sausage</li>
+          <li>$7.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With ice cream and whip cream</li>
+          <li>$7.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With two eggs and meat</li>
+          <li>$8.95</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>With fruits</li>
+          <li>$7.25</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+          <li>Royal waffle with fruits</li>
+          <li>$8.95</li>
+        </ul>
+      </li>
+  </ul>
+</section>
+
+<section>
+
+</section>
 </main>
 
 <footer>
