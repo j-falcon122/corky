@@ -1,0 +1,196 @@
+{"menu.json":
+  [ {
+      "Breakfast":
+      [
+        {"Fresh Egg Platers":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95", "addtiional":""},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
+            { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
+            { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
+          ], "extra":""},
+        {"Egg Sandwiches":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""},
+        {"French Toast":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95"},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75"},
+            { "name":"With hash or beef Sausage", "price":"$7.25"},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95"},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25"},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25"},
+            { "name":"Steak and Eggs", "price":"$13.95"}
+          ], "extra":""},
+        {"Pancakes":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""},
+        {"Waffles":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""},
+        {"Breakfast Sandwiches & Wraps":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""}
+      ]
+    },
+    { "Lunch":
+      [
+        {"Sandwiches":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Special Sandwiches":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Salads":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Burgers":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Quesadillas":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Burgers":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        },
+        {"Chicken & French Fries":
+          [
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""},
+            { "name":"Grilled Cheese", "price":"$3.25", "addtiional":""}
+          ], "extra":""
+        }
+      ]
+    },
+    {
+      "Dinner":
+      [
+        {"Blue Plate Special":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95", "addtiional":""},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
+            { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
+            { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
+          ], "extra":""
+        }
+      ]
+    },
+    {
+      "Appetizers":
+      [
+        {"Apps":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95", "addtiional":""},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
+            { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
+            { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
+          ], "extra":""
+        }
+      ]
+    },
+    {
+      "Desserts":
+      [
+        {"Pastries":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95", "addtiional":""},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
+            { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
+            { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
+          ], "extra":""
+        }
+      ]
+    },
+    {
+      "Beverages":
+      [
+        {"Drinks":
+          [
+            { "name":"Two Eggs any style", "price":"$4.95", "addtiional":""},
+            { "name":"With Ham or Bacon or Sausage", "price":"$6.75", "addtiional":""},
+            { "name":"With hash or beef Sausage", "price":"$7.25", "addtiional":""},
+            { "name":"With fish filet or grilled chicken", "price":"$7.95", "addtiional":""},
+            { "name":"With turkey bacon or turkey sausage", "price":"$7.25", "addtiional":""},
+            { "name":"Hot sausage or Virginia Ham", "price":"$7.25", "addtiional":""},
+            { "name":"Steak and Eggs", "price":"$13.95", "addtiional":""}
+          ], "extra":""
+        }
+      ]
+    }
+
+  ]
+}
