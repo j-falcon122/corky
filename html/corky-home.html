@@ -10,11 +10,19 @@
 	<meta charset="UTF-8"/>
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
+  <link rel="stylesheet" media="screen" type="text/css" href="../css/dropdown.css"/>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/dropdown.js"></script>
+
   <link rel="stylesheet" href="../css/corky-slideshow.css">/
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="../scripts/corky-slideshow.js"></script>
+
 
   <script>
   $(document).ready(function(){
@@ -32,28 +40,31 @@
 		<!--Banner at the top of the page-->
     <section id="banner">
       <figure id="figure1">
-    <img id="coffemug" src ="../images/coffe.png" alt="coffe cup">
-    </figure>
-     <h1>CORKY'S</h1>
-       <h2>DINER</h2>
+
+      <img src ="../images/coffe.png" alt="coffe cup">
+      </figure>
+      <h1>CORKY'S</h1>
+      <h2>DINER</h2>
+
     </section>
 
 
 		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-		<nav>
-			<ul>
-        <li><a href="corky-home.html">Home</a></li>
-        <li><a href="#" id="menu"><button>Menu</button></a>
-          <ul id="options" class="hidden">
-            <li><a href="corky-breakfast.html"><button>Breakfast</button></a></li>
-            <li><a href="corky-lunch.html">Lunch</a></li>
-            <li><a href="corky-AppDrink.html">Appeizers and Drinks</a></li>
-          </ul>
-        </li>
-        <li><a href="corky-about.html">About Us</a></li>
-        <li><a href="corky-contact.html">Contact</a></li>
-			</ul>
-		</nav>
+	   <nav>
+        <div class="container">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Menu</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="corky-breakfast.html">Breakfast</a>
+            <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-appdrink.html">Appitizers and Drinks</a>
+          </div>
+        </div>
+        <a href="corky-about.html">About Us</a>
+        <a href="corky-contact.html">Contact Us</a>
+      </div>
+     </nav>
 	</header>
 
 	<main>
@@ -94,15 +105,15 @@
 
       <p>Open Everyday: 6am - 6pm</p>
 
-
 			<!--Google Maps Api-->
 			<iframe  src="https://www.google.com/maps/embed/v1/place?q=corky's%20diner&key=AIzaSyC2PB9O1YCir5kcaNyLjyt1H2Ft-lNeUZs" allowfullscreen id="map"></iframe>
     </div>
 		</section>
 	</main>
 
-	</aside>
 
+	</aside>
+	</aside>
 	<footer>
 		<!--Copywrite info here-->
 
