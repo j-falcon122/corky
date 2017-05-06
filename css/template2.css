@@ -1,0 +1,67 @@
+body{
+
+    background:url("../images/brickwall.jpg");
+
+}
+
+nav{
+  margin: 20px;
+  padding:10px 10px 10px 10px;
+  text-align: center;
+  background:url("../images/wood.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 900px 100px;
+
+}
+
+footer{
+  margin-bottom: 0%;
+  background-color:orange;
+  text-align: center;
+  padding:2em 0 2em 0;
+  border-top:solid 2px #FFFFFF;
+  font-style: italic;
+  color: white;
+
+}
+footer img{
+    width:70px;
+    height:70px;
+    border:0;
+}
+
+#banner{
+  background-image: url("../images/food/trasparentcolor-image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height:250px;
+
+
+}
+
+#banner img{
+  position: absolute;
+  left: 870px;
+  top:20px;
+  height: 210px;
+  width: 210px;
+}
+#banner h1{
+  color: #ffff66;
+  font-family:Abril Fatface, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 1px #333333;
+  font-size:6em;
+  padding-top: 20px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+
+}
+#banner h2{
+  color:#ffcc66;
+  text-align: center;
+  font-size:3em;
+  padding-top: 18px;
+}
