@@ -10,9 +10,13 @@
 	<meta charset="UTF-8"/>
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
+  <link rel="stylesheet" media="screen" type="text/css" href="../css/dropdown.css"/>
+
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/dropdown.js"></script>
 
   <script>
   $(document).ready(function(){
@@ -40,20 +44,21 @@
 
 
 		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-		<nav>
-			<ul>
-        <li><a href="corky-home.html">Home</a></li>
-        <li><a href="#" id="menu"><button>Menu</button></a>
-          <ul id="options" class="hidden">
-            <li><a href="corky-breakfast.html"><button>Breakfast</button></a></li>
-            <li><a href="corky-lunch.html">Lunch</a></li>
-            <li><a href="corky-AppDrink.html">Appeizers and Drinks</a></li>
-          </ul>
-        </li>
-        <li><a href="corky-about.html">About Us</a></li>
-        <li><a href="corky-contact.html">Contact</a></li>
-			</ul>
-		</nav>
+	   <nav>
+        <div class="container">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Menu</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="corky-breakfast.html">Breakfast</a>
+            <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-appdrink.html">Appitizers and Drinks</a>
+          </div>
+        </div>
+        <a href="corky-about.html">About Us</a>
+        <a href="corky-contact.html">Contact Us</a>
+      </div>
+     </nav>
 	</header>
 
 	<main>
