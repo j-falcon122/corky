@@ -3,14 +3,13 @@
   padding:0;
 }
 nav{
-
+  margin: 20px;
   padding:10px 10px 10px 10px;
   text-align: center;
   background:url("../images/wood.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: 900px 100px;
-
 
 }
 nav ul{
@@ -42,26 +41,8 @@ ul .hidden{
 
 section{
   color#FFFFFF;
-
-
 }
 
-
-img {
-
-}
-section h1 {
-
-
-}
-section h2 {
-
-}
-figure figure1{
-
-
-
-}
 figure img{
   position: absolute;
   left: 870px;
@@ -126,11 +107,6 @@ ul .hidden{
 }
 
 /*Main image*/
-section img{
-  width: auto;
-  height: 250px;
-}
-
 #facebookicon{
 position:relative;
 width: 4em;
@@ -143,6 +119,7 @@ height: 4em;
 #banner{
   background-image: url("../images/food/trasparentcolor-image.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   height:250px;
 
 
