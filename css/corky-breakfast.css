@@ -1,6 +1,41 @@
 body{
   text-align: center;
 }
-section button{
 
+section button{
+  width: 400px;
+
+  margin:auto;
+  margin-bottom: 2em;
+  background-color: white;
+  border: 3px solid gray;
+  color:black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+
+}
+.hidden{
+  background-color: #FFFFFF;
+}
+
+#eggPlaters{
+  width: 400px;
+  height: auto;
+  background-image: url("../images/eggbutton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sandwichbutt{
+
+  background-image: url("../images/sandwichbutton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#frenchtostbutt{
+  background-image: url("../images/toastbutton.png");
 }
