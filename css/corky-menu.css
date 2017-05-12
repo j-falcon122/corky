@@ -1,10 +1,11 @@
 body{
   text-align: center;
+  font-family: sans-serif;
 }
 
 section button{
-  width: 400px;
 
+  width: 400px;
   margin:auto;
   margin-bottom: 2em;
   background-color: white;
@@ -17,25 +18,42 @@ section button{
   font-size: 16px;
   cursor: pointer;
   display: block;
+  background-size: cover;
 
 }
 .hidden{
   background-color: #FFFFFF;
 }
+button text{
 
+}
+section{
+  margin-top: 1.2em;
+}
+.foodlist{
+  width:400px;
+  margin:auto;
+  list-style-type: none;
+}
 #eggPlaters{
   width: 400px;
   height: auto;
   background-image: url("../images/eggbutton.png");
   background-repeat: no-repeat;
-  background-size: cover;
+
 }
 #sandwichbutt{
-
   background-image: url("../images/sandwichbutton.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #frenchtostbutt{
   background-image: url("../images/toastbutton.png");
+}
+#pancakebutt{
+  background-image: url("../images/pankacebutton.png");
+}
+#wafflebutt{
+  background-image: url("../images/wafflebutton.png");
+
 }

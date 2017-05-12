@@ -43,6 +43,7 @@ section{
   color#FFFFFF;
 }
 
+
 figure img{
   position: absolute;
   left: 870px;
@@ -51,13 +52,13 @@ figure img{
   width: 210px;
 
 }
-# figure1{
-
-}
 
 body{
   background:url("../images/brickwall.jpg");
 }
+
+
+
 address h2{
   font-size: 5em;
 }
