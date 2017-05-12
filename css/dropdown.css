@@ -2,7 +2,7 @@ header{
     text-align: center;
 }
 nav .container{
-    width: 360px;
+    width: 100%;
     margin: auto;
 }
 .container {
@@ -12,10 +12,10 @@ nav .container{
 
 .container a {
     float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    font-size: 1.2em;
+    color: black;
+    padding: 0 4%;
+    margin:20px;
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ nav .container{
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
 }
@@ -52,7 +52,7 @@ nav .container{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
