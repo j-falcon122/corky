@@ -12,22 +12,20 @@
 
 	<!--<link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>-->
   <link rel="stylesheet" media="screen" type="text/css" href="../css/template2.css"/>
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-about.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/corky-about.css">
 
-
-  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
 
 
 	<!--Javascript-->
 	<script src="../js/dropdown.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
 </head>
 <body>
 <header>
       <!--Banner at the top of the page-->
     <section id="banner">
       <figure id="figure1">
-
-      <img src ="../images/coffe.png" alt="coffe cup">
       </figure>
       <h1>CORKY'S</h1>
       <h2>DINER</h2>
@@ -35,21 +33,32 @@
     </section>
 
 		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-		<nav>
-        <div class="container">
-        <a href="corky-home.html">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Menu</button>
+		<nav class="desktop">
+      <ul>
+        <li><a href="corky-home.html">Home</a></li>
+
+          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </div>
-        <a href="corky-about.html">About Us</a>
-        <a href="corky-contact.html">Contact Us</a>
+        </li>
+        <li><a href="corky-about.html">About Us</a></li>
+        <li><a href="corky-contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <nav class="mobile">
+      <button id="mobile">Toggle</button>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
       </div>
-     </nav>
+    </nav>
+
 	</header>
 
 
@@ -63,7 +72,7 @@
       <figure>
         <div>
           <img src="../images/corkystore.jpg">
-        </div>s
+        </div>
 
   		  <figcaption>
   			 Corky's Diner is a family buisness that began in the 1980s. Based right in the heart of the Bronx

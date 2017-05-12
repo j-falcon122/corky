@@ -1,33 +1,16 @@
-body{
-  background-color: red;
-
-}
-main{
-
-}
-
-h2{
+.wrapper{
+  width: 75%;
+  margin: auto;
   text-align: center;
 }
 
-figure{
-align-content: center;
-
-}
-figure img{
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-figure figcaption{
-padding-top: 50px;
-  width: 700px;
-  margin-left: 0;
-  text-align:left;
-  vertical-align: middle;
-}
-address{
-  clear:both;
+.wrapper h2{
+  margin-top: 5%;
   text-align: center;
-  font-size: 2em;
+}
+
+div img{
+  width:70%;
+  margin: auto;
+  height: auto;
 }

@@ -11,8 +11,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/dropdown.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/template2.css">
+    <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
+
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -43,9 +44,9 @@
 
 
     <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-     <nav>
+    <nav>
         <div class="container">
-        <a href="corky-home.html">Home</a>
+        <a href="corky-home.html"><button>Home</button></a>
         <div class="dropdown">
           <button class="dropbtn" onclick="myFunction()">Menu</button>
           <div class="dropdown-content" id="myDropdown">
@@ -54,14 +55,42 @@
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
         </div>
-        <a href="corky-about.html">About Us</a>
-        <a href="corky-contact.html">Contact Us</a>
+        <a href="corky-about.html"><button>About Us</button></a>
+        <a href="corky-contact.html"><button>Contact Us</button></a>
       </div>
-     </nav>
+    </nav>
   </header>
 
+<section id="background">
+  <main>
+    <h2>Appitizers</h2>
+    <section>
+      <button id="appbutton">Fresh Egg Platers</button>
 
+      <ul id="applist" class="hidden">
+      </ul>
 
+    </section>
+
+    <h2>Desserts</h2>
+    <section>
+      <button id="dessertbutton">Fresh Egg Platers</button>
+
+      <ul id="dessertlist" class="hidden">
+      </ul>
+
+    </section>
+
+    <h2>Drinks</h2>
+    <section>
+      <button id="drinkbutton">Fresh Egg Platers</button>
+
+      <ul id="drinklist" class="hidden">
+      </ul>
+
+    </section>
+  </main>
+</section>
   <footer>
     <!--Copywrite info here-->
 

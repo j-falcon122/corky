@@ -21,11 +21,31 @@ section button{
 }
 .hidden{
   background-color: #FFFFFF;
+  list-style-type:none;
+  display: none;
+  width:30%;
+  margin: 0 auto;
+  margin-top:-2%;
+  text-align: left;
+ }
+
+
+
+.hidden .inliners li{
+
+  display: inline-block;
+  line-height: 25px;
+}
+main h2{
+  margin-bottom: 2%;
+  letter-spacing: 2%;
 }
 
+#background {
+  margin-top: 3%;
+
+}
 #eggPlaters{
-  width: 400px;
-  height: auto;
   background-image: url("../images/eggbutton.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,4 +58,14 @@ section button{
 }
 #frenchtostbutt{
   background-image: url("../images/toastbutton.png");
+}
+
+@media only screen and (max-width: 738px) {
+
+  section button{
+    width: 95%;
+    margin-left:2%;
+    margin-right: :2%;
+
+  }
 }

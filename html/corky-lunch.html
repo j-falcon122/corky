@@ -9,23 +9,42 @@
   <meta name="robots" content="noindex, nofollow"/>
   <meta charset="UTF-8"/>
 
+
   <!--CSS Scripts-->
-  <link rel="stylesheet" type="text/css" href="../css/corky-home.css">
-  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="../css/template2.css">
   <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
 
 
   <!--Javascript-->
   <script src="../js/dropdown.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+
+  $(document).ready(function(){
+    $("#specialbutton").click(function(){
+      $("#specialoptions").toggle();
+      });
+     $("#burgerbutton").click(function(){
+      $("#burgeroptions").toggle();
+      });
+     $("#frenchtostbutt").click(function(){
+      $("#toastoptions").toggle();
+      });
+     $("#pancakebutt").click(function(){
+      $("#pancakeoptions").toggle();
+      });
+     $("#wafflebutt").click(function(){
+      $("#waffleoptions").toggle();
+      });
+    });
+  </script>
 </head>
 <body>
 <header>
     <!--Banner at the top of the page-->
     <section id="banner">
-      <figure id="figure1">
 
-      <img src ="../images/coffe.png" alt="coffe cup">
-      </figure>
       <h1>CORKY'S</h1>
       <h2>DINER</h2>
 
@@ -34,7 +53,7 @@
     <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
    <nav>
         <div class="container">
-        <a href="corky-home.html">Home</a>
+        <a href="corky-home.html"><button>Home</button></a>
         <div class="dropdown">
           <button class="dropbtn" onclick="myFunction()">Menu</button>
           <div class="dropdown-content" id="myDropdown">
@@ -43,78 +62,80 @@
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
         </div>
-        <a href="corky-about.html">About Us</a>
-        <a href="corky-contact.html">Contact Us</a>
+        <a href="corky-about.html"><button>About Us</button></a>
+        <a href="corky-contact.html"><button>Contact Us</button></a>
       </div>
-     </nav>
+    </nav>
   </header>
-<main>
-  <h2>Lunch</h2>
+<section id="background">
+    <main>
+      <h2>Lunch</h2>
 
-  <section id="specialsandwich">
+      <section id="specialsandwich">
 
-    <button id="specialbutton">Corky's Special Sandwiches</button>
+        <button id="specialbutton">Corky's Special Sandwiches</button>
 
-    <ul id="specialoptions">
-      <li>
-        <ul class="inliners">
-            <li>BBQ Chiken on a Hero</li>
-            <li>$6.95</li>
-            <p>Grilled chicken, bbq sauce, chedder cheese and bacon</p>
+        <ul id="specialoptions" class="hidden">
+          <li>
+            <ul class="inliners">
+                <li>BBQ Chiken on a Hero</li>
+                <li>$6.95</li>
+                <p>Grilled chicken, bbq sauce, chedder cheese and bacon</p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Meat Load on Hero</li>
+                <li>$5.95</li>
+                <p>Made with homemade gravy</p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Montana Hero</li>
+                <li>$6.95</li>
+                <p>Grilled chicken, swiss, fried onions, and jalapenos</p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Hotel California Hero</li>
+                <li>$6.95</li>
+                <p>Virginia ham, pepper jack cheese, avacado</p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Pulled Pork Hero</li>
+                <li>$6.95</li>
+                <p>Fried onions, and BBQ sauce</p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>French Dip Hero</li>
+                <li>$6.95</li>
+                <p>Roast beef, mozzarella cheese and gravy</p>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li>
-        <ul class="inliners">
-            <li>Meat Load on Hero</li>
-            <li>$5.95</li>
-            <p>Made with homemade gravy</p>
-        </ul>
-      </li>
-      <li>
-        <ul class="inliners">
-            <li>Montana Hero</li>
-            <li>$6.95</li>
-            <p>Grilled chicken, swiss, fried onions, and jalapenos</p>
-        </ul>
-      </li>
-      <li>
-        <ul class="inliners">
-            <li>Hotel California Hero</li>
-            <li>$6.95</li>
-            <p>Virginia ham, pepper jack cheese, avacado</p>
-        </ul>
-      </li>
-      <li>
-        <ul class="inliners">
-            <li>Pulled Pork Hero</li>
-            <li>$6.95</li>
-            <p>Fried onions, and BBQ sauce</p>
-        </ul>
-      </li>
-      <li>
-        <ul class="inliners">
-            <li>French Dip Hero</li>
-            <li>$6.95</li>
-            <p>Roast beef, mozzarella cheese and gravy</p>
-        </ul>
-      </li>
-    </ul>
-  </section>
+      </section>
 
-  <section id="burgers">
-    <button id="burgerbutton">Burgers</button>
-    <ul id="burgeroptions">
-      <li>
-        <ul class="inliners">
-            <li>Beef Burger/li>
-            <li>$6.95</li>
-            <p>Grilled chicken, bbq sauce, chedder cheese and bacon
+      <section id="burgers">
+        <button id="burgerbutton">Burgers</button>
+        <ul id="burgeroptions" class="hidden">
+          <li>
+            <ul class="inliners">
+                <li>Beef Burger</li>
+                <li>$6.95</li>
+                <p>Grilled chicken, bbq sauce, chedder cheese and bacon</p>
+            </ul>
+          </li>
         </ul>
-      </li>
-    </ul>
-  </section>
+      </section>
 
-</main>
+    </main>
+    </section>
 <footer>
     <!--Copywrite info here-->
     <p>&copy;2017 Corky's Diner</p>

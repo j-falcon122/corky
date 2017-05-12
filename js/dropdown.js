@@ -12,4 +12,9 @@ window.onclick = function(e) {
         myDropdown.classList.remove('show');
       }
   }
+
+
+  $('#mobile').click(function() {
+  $(this).toggleClass('expanded').siblings('div').slideToggle();
+});
 }
