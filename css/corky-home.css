@@ -3,28 +3,28 @@
   padding:0;
 }
 nav{
-  margin: 20px;
-  padding:10px 10px 10px 10px;
+  width: 100%;
+  margin:5px;
   text-align: center;
-  background:url("../images/wood.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 900px 100px;
-
+  border-bottom: 1px solid black;
 }
 nav ul{
   list-style-type: none;
+
 }
 nav ul li{
+
   display: inline;
-  padding: 2px 10px 2px 10px;
+  padding: 50px;
+
 }
-nav li a{
+nav ul li a{
+  margin: 20px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
-  color:white;
   text-transform: uppercase;
+
 }
 h2{
   font-size: 2em;
@@ -43,6 +43,7 @@ section{
   color#FFFFFF;
 }
 
+
 figure img{
   position: absolute;
   left: 870px;
@@ -51,27 +52,66 @@ figure img{
   width: 210px;
 
 }
-# figure1{
-
-}
 
 body{
-  background:url("../images/brickwall.jpg");
-}
-address h2{
-  font-size: 5em;
-}
-section iframe{
-  margin: 0 auto;
-  width="600";
-  height="450" ;
-  frameborder="0" ;
-  border:0;
-}
-#mapcontainer{
-  text-align: center;
+  background:url("../images/background3.jpg");
 }
 
+/*
+section iframe{
+  margin: 0 auto;
+  frameborder="0" ;
+  border:0;
+}*/
+
+#background{
+background-color: white;
+border-radius:10px;
+margin: 40px;
+
+
+}
+
+section location{
+
+margin:20px;
+}
+#location{
+  background-color: yellow;
+
+}
+#location figure{
+  vertical-align: middle;
+  display:inline-block;
+  margin:30px;
+
+}
+
+#location figure iframe{
+  width: 300px;
+  height:300px;
+  margin: auto;
+  text-align:center;
+}
+/*#mapcontainer{
+  text-align: center;
+  height: auto;
+}
+#map{
+  width: 600px;
+  height: 400px;
+}*/
+@media (max-width:700px) {
+  #location figure{
+    display: block;
+  }
+
+  #location figure{
+    display:block;
+    margin:30px;
+
+  }
+}
 
 
 footer{
@@ -102,6 +142,7 @@ nav ul li{
   display: inline;
 }
 
+
 /*to hide the drop down options*/
 .hidden{
   display: none;
@@ -116,6 +157,8 @@ width: 4em;
 height: 4em;
 
 }
+
+
 #images{
   text-align: center;
 }
@@ -127,6 +170,7 @@ height: 4em;
 
 
 }
+
 #banner h1{
   color: #ffff66;
   font-family:Abril Fatface, sans-serif;
@@ -147,12 +191,7 @@ height: 4em;
 
 }
 #banner figure{
-
-
 }
 #figure1{
-
 }
 /*Ul that go inline*/
-
-}
