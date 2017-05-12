@@ -38,19 +38,15 @@ h2{
 ul .hidden{
   display: none
 }
-
 section{
   color#FFFFFF;
 }
-
-
 figure img{
   position: absolute;
   left: 870px;
   top:20px;
   height: 210px;
   width: 210px;
-
 }
 
 body{
