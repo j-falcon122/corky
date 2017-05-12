@@ -13,8 +13,15 @@ window.onclick = function(e) {
       }
   }
 
-
-  $('#mobile').click(function() {
-  $(this).toggleClass('expanded').siblings('div').slideToggle();
-});
+  function showHideNav(){
+      var nav = document.getElementById("mobilebutton");
+      if(nav.className === "mobile"){
+          console.log("will hide now");
+          nav.setAttribute("class", "mobilehide");
+      }
+      else{
+          console.log("will show now");
+          nav.setAttribute("class", "mobile");
+      }
+  }
 }

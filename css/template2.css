@@ -58,6 +58,9 @@ a{
   .mobile{
     display: block;
   }
+  .mobilehide{
+    display: none;
+  }
   .desktop{
     display: none;
   }
