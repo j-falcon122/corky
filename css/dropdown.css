@@ -54,6 +54,7 @@ ul .hidden{
 
 .dropdown-content {
     display: none;
+    float: none;
     position: absolute;
     margin: auto;
     background-color: #f9f9f9;
@@ -78,6 +79,12 @@ ul .hidden{
 
 .show {
     display: block;
+
+}
+.show-middle{
+  clear: both;
+  display: block;
+  margin: auto;
 }
 
 .wrapper{

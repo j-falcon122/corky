@@ -60,12 +60,14 @@ height: 4em;
 
 }
 #banner{
-  background-image: url("../images/food/trasparentcolor-image.png");
+  background-image: url("../images/banerfotoshop.png");
   opacity: 0.9;
   background-size: 100%;
   background-repeat: no-repeat;
   height:250px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  width: 100%
 }
 #background{
 background-color: white;
@@ -77,22 +79,24 @@ margin-top:-70px;
 
 
 #banner h1{
+
   color: #ffff66;
   font-family:Abril Fatface, sans-serif;
   text-align: center;
   text-shadow: 2px 2px 1px #333333;
   font-size:5em;
-  padding: 0px;
+  padding: 10px;
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
+  position: relative;
 
 }
 #banner h2{
   color:#ffcc66;
   text-align: center;
   font-size:2.5em;
-  padding-top: -7px;
-
+  padding-top: 0px;
+  position: relative;
 
 }
