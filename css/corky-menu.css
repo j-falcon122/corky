@@ -69,6 +69,8 @@ section{
   background-image: url("../images/toastbutton.png");
 }
 
+
+
 @media only screen and (max-width: 738px) {
 
   section button{
@@ -77,6 +79,7 @@ section{
     margin-right: :2%;
 
   }
+
 #pancakebutt{
   background-image: url("../images/pankacebutton.png");
 }
