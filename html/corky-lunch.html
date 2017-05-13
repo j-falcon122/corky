@@ -11,10 +11,8 @@
 
   <!--CSS Scripts-->
 
-
+  <link rel="stylesheet" type="text/css" href="../css/template.css">
   <link rel="stylesheet" type="text/css" href="../css/template2.css">
- <!-- <link rel="stylesheet" type="text/css" href="../css/corky-home.css">-->
-<!--  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">-->
   <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
 
 
@@ -55,25 +53,30 @@
       <h2>DINER</h2>
 
     </section>
+  </header>
+
+<section id="background">
 
     <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-   <nav>
-        <div class="container">
-        <a href="corky-home.html"><button>Home</button></a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Menu</button>
+
+<nav class="desktop">
+      <ul>
+        <li><a href="corky-home.html">Home</a></li>
+
+          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-dinner.html">Dinner</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </div>
-        <a href="corky-about.html"><button>About Us</button></a>
-        <a href="corky-contact.html"><button>Contact Us</button></a>
-      </div>
-    </nav>
-  </header>
-<section id="background">
+        </li>
+        <li><a href="corky-about.html">About Us</a></li>
+        <li><a href="corky-contact.html">Contact Us</a></li>
+      </ul>
+ </nav>
+
+
     <main>
       <h2>Lunch</h2>
       <section id="sandwich">
@@ -162,7 +165,7 @@
         </li>
         <li>
         <ul class="inliners">
-            <li>Ham & Cheese</li>
+            <li>Ham &amp; Cheese</li>
             <li>$5.50</li>
             <p></p>
         </ul>
@@ -386,63 +389,63 @@
   </section>
 
     <section id="wraps-paninis">
-    <button id="wraps-paninis-button">Classic Wraps & Paninis</button>
+    <button id="wraps-paninis-button">Classic Wraps &amp; Paninis</button>
     <ul id="wraps-paninis-options" class="hidden foodlist"
         >
       <li>
         <ul class="inliners">
             <li>Grilled Chicken Caesar</li>
             <li>$6.25</li>
-            <p>Grilled Chicken, Romaine Lettuce, Croutons, Parmesane Cheese & Caesar dressing</p>
+            <p>Grilled Chicken, Romaine Lettuce, Croutons, Parmesane Cheese &amp; Caesar dressing</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Philly Cheese Steak</li>
             <li>$6.75</li>
-            <p>onion, pepper & american cheese</p>
+            <p>onion, pepper &amp; american cheese</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>BLT WRAP</li>
             <li>$6.25</li>
-            <p>bacon, lettuce & tomato</p>
+            <p>bacon, lettuce &amp; tomato</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Chicken Parmigiana</li>
             <li>$6.75</li>
-            <p>breaded chicken cutlet, mozzarella cheese & marinara sauce</p>
+            <p>breaded chicken cutlet, mozzarella cheese &amp; marinara sauce</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Tuna Salad</li>
             <li>$6.75</li>
-            <p>lettuce, tomato & american cheese</p>
+            <p>lettuce, tomato &amp; american cheese</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Beef</li>
             <li>$6.75</li>
-            <p>Brisket, Corned Beef, or Pastrami, and jalapeno, lettuce & tomato</p>
+            <p>Brisket, Corned Beef, or Pastrami, and jalapeno, lettuce &amp; tomato</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Corky's</li>
             <li>$6.25</li>
-            <p>grilled chicken, avacado, lettuce & tomato</p>
+            <p>grilled chicken, avacado, lettuce &amp; tomato</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Greek Wrap</li>
             <li>$6.25</li>
-            <p>Gyro meat, lettuce, tomato & white sauce</p>
+            <p>Gyro meat, lettuce, tomato &amp; white sauce</p>
         </ul>
       </li>
       <li>
@@ -456,14 +459,14 @@
         <ul class="inliners">
             <li>Grilled or Crispy Chicken</li>
             <li>$6.25</li>
-            <p>american cheese, lettuce & tomato</p>
+            <p>american cheese, lettuce &amp; tomato</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
             <li>Bronx Wrap</li>
             <li>$6.25</li>
-            <p>roast beef, swiss cheese, sauteed onions, tomatoes & russian dressing</p>
+            <p>roast beef, swiss cheese, sauteed onions, tomatoes &amp; russian dressing</p>
         </ul>
       </li>
       <li>Any Wrap with french fries $1.95 extra.</li>

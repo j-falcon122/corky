@@ -1,5 +1,5 @@
 .slideshow-container {
-    font-family: Abril Fatface, Arial, Helvetica, sans-serif;
+
     width: 100%;
     height:auto;
     margin: 0 auto;
@@ -21,12 +21,15 @@
 
 }
 .slideshow {//width and height of container
+
   height:100%;
   width: 100%;
 
 }
 .slideshow-container img {//heigh and width slishow
   border-radius: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
   height: 300px;
   width: 90%;
 }

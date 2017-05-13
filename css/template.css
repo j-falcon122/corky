@@ -1,4 +1,11 @@
-
+*{
+   margin: 0;
+   padding:0;
+ }
+ body{
+   background:url("../images/background67.jpg");
+   font-family: PT Mono;
+ }
 footer{
   margin-bottom: 0%;
   background-color:orange;
@@ -13,8 +20,18 @@ footer img{
     border:0;
 }
 #images{
+
   text-align: center;
 }
+#images p{
+  margin:20px;
+  font-family: PT Mono;
+  color: red;
+}
+#caption{
+  font-family: PT Mono;
+}
+
 #facebookicon{
 position:relative;
 width: 4em;
@@ -23,10 +40,15 @@ height: 4em;
 }
 #banner{
   background-image: url("../images/food/trasparentcolor-image.png");
+  opacity: 0.9;
   background-size: 100%;
   background-repeat: no-repeat;
   height:250px;
+  margin-bottom: 150px;
 }
+
+
+
 
 #banner h1{
   color: #ffff66;
@@ -44,6 +66,7 @@ height: 4em;
   color:#ffcc66;
   text-align: center;
   font-size:2.5em;
-  padding-top: 0px;
+  padding-top: -7px;
+
 
 }
