@@ -2,6 +2,52 @@
   margin:0;
   padding:0;
 }
+
+section{
+  color#FFFFFF;
+}
+
+body{
+  background:url("../images/brickwall2.png");
+}
+
+/*
+section iframe{
+  margin: 0 auto;
+  frameborder="0" ;
+  border:0;
+}*/
+
+#background{
+background-color: white;
+border-radius:10px;
+margin: 40px;
+margin-top:-70px;
+}
+section location{
+
+margin:20px;
+}
+
+#location{
+  text-align: center;
+}
+#location figure{
+  vertical-align: middle;
+  display:inline-block;
+  margin-top: 50px;
+  margin:10px;
+}
+
+#location figure iframe{
+  width: 300px;
+  height:300px;
+  margin: auto;
+  text-align:center;
+}
+#map{
+border: 10px solid black;
+}
 nav{
   width: 100%;
   margin:5px;
@@ -10,7 +56,6 @@ nav{
 }
 nav ul{
   list-style-type: none;
-
 }
 nav ul li{
 
@@ -29,69 +74,12 @@ nav ul li a{
 h2{
   font-size: 2em;
 }
-
-
 /*to hide the drop down options*/
 .hidden{
   display: none;
 }
 ul .hidden{
   display: none
-}
-
-section{
-  color#FFFFFF;
-}
-
-
-figure img{
-  position: absolute;
-  left: 870px;
-  top:20px;
-  height: 210px;
-  width: 210px;
-
-}
-
-body{
-  background:url("../images/background3.jpg");
-}
-
-/*
-section iframe{
-  margin: 0 auto;
-  frameborder="0" ;
-  border:0;
-}*/
-
-#background{
-background-color: white;
-border-radius:10px;
-margin: 40px;
-
-
-}
-
-section location{
-
-margin:20px;
-}
-#location{
-  background-color: yellow;
-
-}
-#location figure{
-  vertical-align: middle;
-  display:inline-block;
-  margin:30px;
-
-}
-
-#location figure iframe{
-  width: 300px;
-  height:300px;
-  margin: auto;
-  text-align:center;
 }
 /*#mapcontainer{
   text-align: center;
@@ -105,93 +93,8 @@ margin:20px;
   #location figure{
     display: block;
   }
-
   #location figure{
     display:block;
     margin:30px;
-
   }
 }
-
-
-footer{
-  margin-bottom: 0%;
-  background-color:orange;
-  text-align: center;
-  padding:2em 0 2em 0;
-  border-top:solid 2px #FFFFFF;
-  font-style: italic;
-  color: white;
-
-}
-
-fieldset{
-
-}
-footer img{
-    width:70px;
-    height:70px;
-    border:0;
-}
-
-/*Nav Styles*/
-nav ul{
-  list-style-type: none;
-}
-nav ul li{
-  display: inline;
-}
-
-
-/*to hide the drop down options*/
-.hidden{
-  display: none;
-}
-ul .hidden{
-  display: none
-}
-
-#facebookicon{
-position:relative;
-width: 4em;
-height: 4em;
-
-}
-
-
-#images{
-  text-align: center;
-}
-#banner{
-  background-image: url("../images/food/trasparentcolor-image.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height:250px;
-
-
-}
-
-#banner h1{
-  color: #ffff66;
-  font-family:Abril Fatface, sans-serif;
-  text-align: center;
-  text-shadow: 2px 2px 1px #333333;
-  font-size:6em;
-  padding-top: 20px;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-  transform: rotate(0deg);
-
-}
-#banner h2{
-  color:#ffcc66;
-  text-align: center;
-  font-size:3em;
-  padding-top: 18px;
-
-}
-#banner figure{
-}
-#figure1{
-}
-/*Ul that go inline*/

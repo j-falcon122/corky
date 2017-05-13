@@ -9,12 +9,10 @@
   <meta name="robots" content="noindex, nofollow"/>
   <meta charset="UTF-8"/>
 
-
   <!--CSS Scripts-->
+
+
   <link rel="stylesheet" type="text/css" href="../css/template2.css">
- <!-- <link rel="stylesheet" type="text/css" href="../css/corky-home.css">-->
-  <!--<link rel="stylesheet" type="text/css" href="../css/corky-menu.css">-->
-<!--  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">-->
   <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
 
 
@@ -25,20 +23,23 @@
   <script>
 
   $(document).ready(function(){
-    $("#specialbutton").click(function(){
-      $("#specialoptions").toggle();
+    $("#special-button").click(function(){
+      $("#special-options").toggle();
       });
-     $("#burgerbutton").click(function(){
-      $("#burgeroptions").toggle();
+     $("#burger-button").click(function(){
+      $("#burger-options").toggle();
       });
-     $("#frenchtostbutt").click(function(){
-      $("#toastoptions").toggle();
+     $("#sandwich-button").click(function(){
+      $("#sandwich-options").toggle();
       });
-     $("#pancakebutt").click(function(){
-      $("#pancakeoptions").toggle();
+     $("#chicken-french-fries").click(function(){
+      $("#chicken-french-fries-options").toggle();
       });
-     $("#wafflebutt").click(function(){
-      $("#waffleoptions").toggle();
+     $("#wraps-paninis").click(function(){
+      $("#wraps-paninis-options").toggle();
+      });
+     $("#quesadillas").click(function(){
+      $("#quesadillas-options").toggle();
       });
     });
   </script>
@@ -54,9 +55,11 @@
     </section>
   </header>
 
-  <section id="background">
+<section id="background">
+
     <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-   <nav class="desktop">
+
+<nav class="desktop">
       <ul>
         <li><a href="corky-home.html">Home</a></li>
 
@@ -64,22 +67,131 @@
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-dinner.html">Dinner</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
         </li>
         <li><a href="corky-about.html">About Us</a></li>
         <li><a href="corky-contact.html">Contact Us</a></li>
       </ul>
-    </nav>
+ </nav>
+
 
     <main>
       <h2>Lunch</h2>
+      <section id="sandwich">
 
-      <section id="specialsandwich">
+        <button id="sandwich-button">Sandwiches</button>
 
-        <button id="specialbutton">Corky's Special Sandwiches</button>
+        <ul id="sandwich-options" class="hidden foodlist"
+        >
+          <li>
+            <ul class="inliners">
+                <li>Grilled Cheese</li>
+                <li>$3.25</li>
+                <p></p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>With Ham, Bacon or Sausage</li>
+                <li>$4.50</li>
+                <p></p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Crispy Chicken</li>
+                <li>$5.95</li>
+                <p></p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Turkey</li>
+                <li>$6.25</li>
+                <p></p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>B.L.T.</li>
+                <li>$4.25</li>
+                <p></p>
+            </ul>
+          </li>
+          <li>
+            <ul class="inliners">
+                <li>Breaded Chicken Parmagiana</li>
+                <li>$6.25</li>
+                <p></p>
+            </ul>
+          </li>
+    <ul id="specialoptions" class="hidden foodlist">
+      <li>
+        <ul class="inliners">
+            <li>Pastrami or Corned Beef</li>
+            <li>$6.95</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Roast Beef</li>
+            <li>$6.95</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Fried Fish Filet</li>
+            <li>$5.50</li>
+            <p></p>
+        </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Grilled Chicken</li>
+            <li>$6.95</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Tuna Fish</li>
+            <li>$5.95</li>
+            <p></p>
+        </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Ham &amp; Cheese</li>
+            <li>$5.50</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Egg Salad</li>
+            <li>$3.95</li>
+            <p></p>
+        </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Tuna Ind</li>
+            <li>6.95</li>
+            <p></p>
+        </ul>
+      </li>
 
-        <ul id="specialoptions" class="hidden">
+      </section>
+
+      <section id="special-sandwich">
+
+        <button id="special-button">Corky's Special Sandwiches</button>
+
+        <ul id="special-options" class="hidden">
           <li>
             <ul class="inliners">
                 <li>BBQ Chiken on a Hero</li>
@@ -122,7 +234,6 @@
                 <p>Roast beef, mozzarella cheese and gravy</p>
             </ul>
           </li>
-    <ul id="specialoptions"class="hidden foodlist">
       <li>
         <ul class="inliners">
             <li>BBQ Chiken on a Hero</li>
@@ -145,67 +256,261 @@
         </ul>
       </section>
 
-      <section id="burgers">
-        <button id="burgerbutton">Burgers</button>
-        <ul id="burgeroptions" class="hidden">
-          <li>
-            <ul class="inliners">
-                <li>Beef Burger</li>
-                <li>$6.95</li>
-                <p>Grilled chicken, bbq sauce, chedder cheese and bacon</p>
-            </ul>
-          </li>
+
   <section id="burgers">
-    <button id="burgerbutton">Burgers</button>
-    <ul id="burgeroptions" class="hidden foodlist">
+    <button id="burger-button">Burgers</button>
+    <ul id="burger-options" class="hidden foodlist">
       <li>
         <ul class="inliners">
             <li>Beef Burger</li>
+            <li>$4.75</li>
             <li>$6.95</li>
             <p>Grilled chicken, bbq sauce, chedder cheese and bacon</p>
         </ul>
       </li>
       <li>
         <ul class="inliners">
-            <li> </li>
-            <li></li>
+            <li>Bacon Burger</li>
+            <li>$5.50</li>
+            <li>$7.95</li>
             <p></p>
         </ul>
       </li>
        <li>
         <ul class="inliners">
-            <li> </li>
-            <li></li>
+            <li>Pizza Burger</li>
+            <li>$5.50</li>
+            <li>$8.25</li>
             <p></p>
         </ul>
       </li>
+      <li>
+        <ul class="inliners">
+            <li>Turkey Burger</li>
+            <li>$4.95</li>
+            <li>$7.50</li>
+            <p></p>
+        </ul>
+      </li>
+         <li>
+        <ul class="inliners">
+            <li>Veggie Burger</li>
+            <li>$5.95</li>
+            <li>$8.25</li>
+            <p></p>
+        </ul>
+      </li>
+        <li>
+        <ul class="inliners">
+            <li>Mexican Burger</li>
+            <li>$5.50</li>
+            <li>$8.25</li>
+            <p>Jalapeno and Monterrey Jack cheese</p>
+        </ul>
+      </li>
+         <li>
+        <ul class="inliners">
+            <li>California Burger</li>
+            <li>$5.95</li>
+            <li>$8.25</li>
+            <p>Fresh avocado,monterrey jack cheese</p>
+       </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Smoke House Burger</li>
+            <li>$6.50</li>
+            <li>$8.25</li>
+            <p>Chedder cheese, BBQ sause, bacon and sauteed onions</p>
+       </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Down Under Burger</li>
+            <li>$6.50</li>
+            <li>$8.50</li>
+            <p>Topped w/ sunny side up fried white eggs, two strips bacon, and BBQ sauce</p>
+       </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Greek Burger</li>
+            <li>$5.25</li>
+            <li>$7.95</li>
+            <p>Topped w/ tomatoes, onions, and feta cheese</p>
+       </ul>
+        </li>
     </ul>
   </section>
 
   <!--Jorden put each food thing in a section and follow this setup-->
-  <section>
-    <ul>
+
+  <section id="chicken-french-fries">
+    <button id="chicken-french-fries-button">Chicken & French Fries</button>
+    <ul id="chicken-french-fries-options" class="hidden foodlist"
+        >
       <li>
         <ul class="inliners">
-            <li> </li>
-            <li></li>
+            <li>Chicken Fingers (4)</li>
+            <li>$8.30</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Buffalo Wings (5)</li>
+            <li>$8.30</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Grilled Chicken Sandwich</li>
+            <li>$7.95</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Chicken Parmigiana Sandwich</li>
+            <li>$8.95</li>
+            <p></p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Crispy Chicken Sandwich</li>
+            <li>$7.95</li>
+            <p>Served with french fries, lettuce, tomato. w/ cheese: $.50</p>
+        </ul>
+      </li>
+
+    </ul>
+  </section>
+
+    <section id="wraps-paninis">
+    <button id="wraps-paninis-button">Classic Wraps &amp; Paninis</button>
+    <ul id="wraps-paninis-options" class="hidden foodlist"
+        >
+      <li>
+        <ul class="inliners">
+            <li>Grilled Chicken Caesar</li>
+            <li>$6.25</li>
+            <p>Grilled Chicken, Romaine Lettuce, Croutons, Parmesane Cheese &amp; Caesar dressing</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Philly Cheese Steak</li>
+            <li>$6.75</li>
+            <p>onion, pepper &amp; american cheese</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>BLT WRAP</li>
+            <li>$6.25</li>
+            <p>bacon, lettuce &amp; tomato</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Chicken Parmigiana</li>
+            <li>$6.75</li>
+            <p>breaded chicken cutlet, mozzarella cheese &amp; marinara sauce</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Tuna Salad</li>
+            <li>$6.75</li>
+            <p>lettuce, tomato &amp; american cheese</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Beef</li>
+            <li>$6.75</li>
+            <p>Brisket, Corned Beef, or Pastrami, and jalapeno, lettuce &amp; tomato</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Corky's</li>
+            <li>$6.25</li>
+            <p>grilled chicken, avacado, lettuce &amp; tomato</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Greek Wrap</li>
+            <li>$6.25</li>
+            <p>Gyro meat, lettuce, tomato &amp; white sauce</p>
+        </ul>
+      </li>
+      <li>
+      <li>
+        <ul class="inliners">
+            <li>Mexican</li>
+            <li>$6.25</li>
+            <p>grilled chicken, onion, jalapeno, pepper jack cheese</p>
+        </ul>
+      </li>
+        <ul class="inliners">
+            <li>Grilled or Crispy Chicken</li>
+            <li>$6.25</li>
+            <p>american cheese, lettuce &amp; tomato</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Bronx Wrap</li>
+            <li>$6.25</li>
+            <p>roast beef, swiss cheese, sauteed onions, tomatoes &amp; russian dressing</p>
+        </ul>
+      </li>
+      <li>Any Wrap with french fries $1.95 extra.</li>
+    </ul>
+  </section>
+
+
+
+<section id="quesadillas">
+    <button id="quesadillas-button">Quesadillas</button>
+    <ul id="quesadillas-options" class="hidden foodlist"
+        >
+      <li>
+        <ul class="inliners">
+            <li>Cheese Quesadillas</li>
+            <li>$7.25</li>
+            <p>Monterrey jack and Mozzarella cheese, grilled peppers, and onions</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Chicken Quesadillas</li>
+            <li>$8.30</li>
+            <p>Charbroiled chicken breast, monterrey jack and mozzarella cheese, grilled peppers, and onions</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Healthy Salad</li>
+            <li>$8.95</li>
+            <p>Mixed greens, Fresh turkey, corn, dried cranberries, walnuts and avocado</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Steak Quesadillas</li>
+            <li>$9.95</li>
             <p></p>
         </ul>
       </li>
     </ul>
   </section>
 
-  <!--coppy this to add more
 
-        <li>
-        <ul class="inliners">
-            <li> </li>
-            <li></li>
-            <p></p>
-        </ul>
-      </li>
-
-      -->
   </main>
 </section>
 
