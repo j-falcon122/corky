@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Corky's Diner - Lunch</title>
+  <title>Corky's Diner - Dinner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="keywords" content="Corky's Diner, Diner, Food, Grand Concourse"/>
   <meta name="description" content="Corky's Diner is a restuarant that provides quality meals at an affordable price in the Grand Concourse area"/>
@@ -25,23 +25,20 @@
   <script>
 
   $(document).ready(function(){
-    $("#special-button").click(function(){
-      $("#special-options").toggle();
+    $("#specialbutton").click(function(){
+      $("#specialoptions").toggle();
       });
-     $("#burger-button").click(function(){
-      $("#burger-options").toggle();
+     $("#burgerbutton").click(function(){
+      $("#burgeroptions").toggle();
       });
-     $("#sandwich-button").click(function(){
-      $("#sandwich-options").toggle();
+     $("#frenchtostbutt").click(function(){
+      $("#toastoptions").toggle();
       });
-     $("#chicken-french-fries").click(function(){
-      $("#chicken-french-fries-options").toggle();
+     $("#pancakebutt").click(function(){
+      $("#pancakeoptions").toggle();
       });
-     $("#wraps-paninis").click(function(){
-      $("#wraps-paninis-options").toggle();
-      });
-     $("#quesadillas").click(function(){
-      $("#quesadillas-options").toggle();
+     $("#wafflebutt").click(function(){
+      $("#waffleoptions").toggle();
       });
     });
   </script>
@@ -78,10 +75,9 @@
       <h2>Lunch</h2>
       <section id="sandwich">
 
-        <button id="sandwich-button">Sandwiches</button>
+        <button id="sandwichbutton">Sandwiches</button>
 
-        <ul id="sandwich-options" class="hidden foodlist"
-        >
+        <ul id="sandwichoptions" class="hidden">
           <li>
             <ul class="inliners">
                 <li>Grilled Cheese</li>
@@ -184,11 +180,11 @@
 
       </section>
 
-      <section id="special-sandwich">
+      <section id="specialsandwich">
 
-        <button id="special-button">Corky's Special Sandwiches</button>
+        <button id="specialbutton">Corky's Special Sandwiches</button>
 
-        <ul id="special-options" class="hidden">
+        <ul id="specialoptions" class="hidden">
           <li>
             <ul class="inliners">
                 <li>BBQ Chiken on a Hero</li>
@@ -231,6 +227,7 @@
                 <p>Roast beef, mozzarella cheese and gravy</p>
             </ul>
           </li>
+    <ul id="specialoptions" class="hidden foodlist">
       <li>
         <ul class="inliners">
             <li>BBQ Chiken on a Hero</li>
@@ -255,8 +252,8 @@
 
 
   <section id="burgers">
-    <button id="burger-button">Burgers</button>
-    <ul id="burger-options" class="hidden foodlist">
+    <button id="burgerbutton">Burgers</button>
+    <ul id="burgeroptions" class="hidden foodlist">
       <li>
         <ul class="inliners">
             <li>Beef Burger</li>
@@ -344,8 +341,7 @@
 
   <section id="chicken-french-fries">
     <button id="chicken-french-fries-button">Chicken & French Fries</button>
-    <ul id="chicken-french-fries-options" class="hidden foodlist"
-        >
+    <ul>
       <li>
         <ul class="inliners">
             <li>Chicken Fingers (4)</li>
@@ -387,8 +383,7 @@
 
     <section id="wraps-paninis">
     <button id="wraps-paninis-button">Classic Wraps & Paninis</button>
-    <ul id="wraps-paninis-options" class="hidden foodlist"
-        >
+    <ul>
       <li>
         <ul class="inliners">
             <li>Grilled Chicken Caesar</li>
@@ -474,8 +469,7 @@
 
 <section id="quesadillas">
     <button id="quesadillas-button">Quesadillas</button>
-    <ul id="quesadillas-options" class="hidden foodlist"
-        >
+    <ul>
       <li>
         <ul class="inliners">
             <li>Cheese Quesadillas</li>
