@@ -23,7 +23,7 @@ padding: 2px
 
 }
 #menubutton{
-font-family:PT Mono;
+font-family:PT M ono;
 font-size: 2em;
 padding: 10px;
 border: 3px solid black;
@@ -37,7 +37,7 @@ font-family:PT Mono;
 font-size: 1.3em;
 text-transform: uppercase;
 color: black;
-
+text-align: center;
 }
 
 .dropdown {
