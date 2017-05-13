@@ -31,13 +31,12 @@ section button{
   text-align: left;
  }
 
-
-
 .hidden .inliners li{
 
   display: inline-block;
   line-height: 25px;
 }
+
 main h2{
   margin-bottom: 2%;
   letter-spacing: 2%;
@@ -69,7 +68,6 @@ section{
 #frenchtostbutt{
   background-image: url("../images/toastbutton.png");
 }
-<<<<<<< HEAD:css/corky-breakfast.css
 
 @media only screen and (max-width: 738px) {
 
@@ -79,12 +77,10 @@ section{
     margin-right: :2%;
 
   }
-=======
 #pancakebutt{
   background-image: url("../images/pankacebutton.png");
 }
 #wafflebutt{
   background-image: url("../images/wafflebutton.png");
 
->>>>>>> 8453b9f6dfaa7a23789d742ba3fdefc005ae140a:css/corky-menu.css
 }

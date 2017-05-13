@@ -11,41 +11,45 @@
 
 	<!--CSS Scripts-->
 
-	<link rel="stylesheet" type="text/css" href="../css/corky-home.css">
+
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/template2.css"/>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-contact.css"/>
 
 
 	<!--Javascript-->
-
-	  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-contact.css"/>
-    <link rel="stylesheet" media="screen" type="text/css" href="../css/template.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
-
-
-	<!--Javascript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="../js/dropdown.js"></script>
 
 </head>
 <body>
   <header>
 		<!--Banner at the top of the page-->
+    <section id="banner">
+      <figure id="figure1">
+      </figure>
+      <h1>CORKY'S</h1>
+      <h2>DINER</h2>
 
+    </section>
+</header>
+<section id="background"
     <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-     <nav>
-        <div class="container">
-        <a href="corky-home.html">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Menu</button>
+     <nav class="desktop">
+      <ul>
+        <li><a href="corky-home.html">Home</a></li>
+
+          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </div>
-        <a href="corky-about.html">About Us</a>
-        <a href="corky-contact.html">Contact Us</a>
-      </div>
-     </nav>
-     </header>
+        </li>
+        <li><a href="corky-about.html">About Us</a></li>
+        <li><a href="corky-contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
 <main>
 	<h2>How to Get in Touch? </h2>
 	<p>To contact us please call (718) 933-2484 or send an email with the form below</p>
@@ -64,7 +68,7 @@
 
 	</form>
 </main>
-
+</section>
 <footer>
     <!--Copywrite info here-->
     <p>&copy;2017 Corky's Diner</p>

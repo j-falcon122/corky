@@ -1,10 +1,11 @@
 body{
   text-align: center;
+  font-family: sans-serif;
+
 }
 
 section button{
   width: 400px;
-
   margin:auto;
   margin-bottom: 2em;
   background-color: white;
@@ -17,6 +18,7 @@ section button{
   font-size: 16px;
   cursor: pointer;
   display: block;
+  background-size: cover;
 
 }
 .hidden{
@@ -37,6 +39,7 @@ section button{
   line-height: 25px;
 }
 main h2{
+  margin-top: 2%;
   margin-bottom: 2%;
   letter-spacing: 2%;
 }

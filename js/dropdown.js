@@ -6,6 +6,7 @@ function myFunction() {
 
 
 $(document).ready(function(){
+
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
@@ -15,9 +16,10 @@ window.onclick = function(e) {
       }
   }
 }
-}
-
-$('#mobilebutton').click(function() {
-  $(this).toggleClass('expanded').siblings('div').slideToggle();
 });
+
+
+//$('#mobilebutton').click(function() {
+  //$(this).toggleClass('expanded').siblings('div').slideToggle();
+//});
 
