@@ -39,15 +39,7 @@ text-transform: uppercase;
 color: black;
 
 }
-.container a {
-text-decoration: none;
-font-weight: bold;
-font-family:PT Mono;
-font-size: 1.3em;
-text-transform: uppercase;
-color: black;
 
-}
 .dropdown {
   float: left;
   overflow: hidden;

@@ -62,7 +62,7 @@ main h2{
 #frenchtostbutt{
   background-image: url("../images/toastbutton.png");
 }
-
+/*
 @media only screen and (max-width: 738px) {
 
   section button{
@@ -71,4 +71,4 @@ main h2{
     margin-right: :2%;
 
   }
-}
+}*/
