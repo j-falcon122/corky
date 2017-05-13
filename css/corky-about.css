@@ -41,3 +41,9 @@ div img{
   margin: auto;
   height: auto;
 }
+
+@media (max-width:700px) {
+  figure figcaption, #addr address{
+    font-size: 1em;
+  }
+ }
