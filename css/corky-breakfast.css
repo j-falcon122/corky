@@ -28,7 +28,7 @@ body{
   background-color: #FFFFFF;
   list-style-type:none;
   display: none;
-  width:30%;
+  max-width:30%;
   margin: 0 auto;
   margin-top:-2%;
   text-align: left;
@@ -76,4 +76,20 @@ main h2{
     margin-right: :2%;
 
   }
+
+  .hidden{
+  max-width:100%;
+  margin:0;
+  padding: 0;
+   height:100px;
+  overflow-y: auto;
+ }
+ .foodlist li{
+  max-width: 100%;
+ }
+
+ .inliners
+ {
+  display: inline;
+ }
 }
