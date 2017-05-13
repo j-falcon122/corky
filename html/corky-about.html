@@ -21,8 +21,8 @@
 
 
 	<!--Javascript-->
-	<script type="text/javascript" src="../scripts/dropdown.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="../scripts/dropdown.js"></script>
 
 </head>
 <body>
@@ -30,8 +30,6 @@
     <!--Banner at the top of the page-->
     <section id="banner">
 
-      <h1>CORKY'S</h1>
-      <h2>DINER</h2>
 
     </section>
   </header>
@@ -45,7 +43,8 @@
       </div>
       <section id="formenu">
       <button class="dropbtn" id="menubutton" onclick="myFunction()">Menu</button>
-        <div class="dropdown">
+    </section>
+        <div id="dropdown-container" class="dropdown">
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
@@ -53,7 +52,6 @@
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
         </div>
-    </section>
      </nav>
 
    <!-- <nav class="mobile" >

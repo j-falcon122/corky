@@ -13,6 +13,9 @@ window.onclick = function(e) {
     var myDropdown = document.getElementById("myDropdown");
       if (myDropdown.classList.contains('show')) {
         myDropdown.classList.remove('show');
+        var dropDownContainer = document.getElementById("dropdown-container");
+        dropDownContainer.style.textAlign = "center";
+        // myDropdown.setAttribute('class', 'show-middle');
       }
   }
 }
