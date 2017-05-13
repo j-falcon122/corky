@@ -11,15 +11,12 @@
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="../css/template2.css">
     <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
 
-=======
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-menu.css"/>
   <link rel="stylesheet" media="screen" type="text/css" href="../css/dropdown.css"/>
->>>>>>> 8453b9f6dfaa7a23789d742ba3fdefc005ae140a
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,6 +27,19 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="../scripts/corky-slideshow.js"></script>
 
+ <script>
+
+  $(document).ready(function(){
+    $("#app-button").click(function(){
+      $("#app-options").toggle();
+      });
+     $("#dessert-button").click(function(){
+      $("#dessert-options").toggle();
+      });
+     $("#drinks-button").click(function(){
+      $("#drinks-options").toggle();
+      });
+    });
   </script>
 
 </head>
@@ -71,27 +81,161 @@
   <main>
     <h2>Appitizers</h2>
     <section>
-      <button id="appbutton">Fresh Egg Platers</button>
+      <button id="app-button">Appetizers</button>
 
-      <ul id="applist" class="hidden">
+      <ul id="app-options" class="hidden">
+        <ul class="inliners">
+              <li>French Fries</li>
+              <li>$3.25</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>French Fries w/ Cheese</li>
+              <li>$3.95</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>French Fries w/ Bacon and Cheese</li>
+              <li>$4.95</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Onion Rings</li>
+              <li>$3.75</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Mozzarella Sticks (6pc)</li>
+              <li>$5.50</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Buffalo Wings (5pc)</li>
+              <li>$6.45</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Chicken Tenders (4pc)</li>
+              <li>$6.45</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Sweet Potato French Fries</li>
+              <li>$6.45</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Combo Platter Appetizer</li>
+              <li>$6.45</li>
+              <p></p>
+         </ul>
       </ul>
 
     </section>
 
     <h2>Desserts</h2>
-    <section>
-      <button id="dessertbutton">Fresh Egg Platers</button>
-
-      <ul id="dessertlist" class="hidden">
+    <section id="dessert">
+      <button id="dessert-button">Pastries</button>
+      <ul id="dessert-options" class="hidden">
+        <ul class="inliners">
+              <li>Carrot Cake</li>
+              <li>$2.75</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Chocolate Cake</li>
+              <li>$3.25</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Cheese Cake</li>
+              <li>$3.25</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Strawberry Cheese Cake</li>
+              <li>$3.50</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Cheese Cake</li>
+              <li>$3.50</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Lemon Cake</li>
+              <li>$3.00</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Apple Pie</li>
+              <li>$2.75</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Ice Cream</li>
+              <li>$3.95</li>
+              <p></p>
+         </ul>
       </ul>
 
     </section>
 
-    <h2>Drinks</h2>
-    <section>
-      <button id="drinkbutton">Fresh Egg Platers</button>
+    <h2>Beverages</h2>
+    <section id="drinks">
+      <button id="drinks-button">Drinks</button>
 
-      <ul id="drinklist" class="hidden">
+      <ul id="drinks-options" class="hidden">
+        <ul class="inliners">
+              <li>Coffee or Tea</li>
+              <li>$1.25</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Can Soda</li>
+              <li>$1.50</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Snapple</li>
+              <li>$2.00</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Juice</li>
+              <li>$2.50</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Water</li>
+              <li>$1.25</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Milk Shake</li>
+              <li>$3.95</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Expresso or Cappuccino</li>
+              <li>$2.75</li>
+              <p></p>
+         </ul>
+          <ul class="inliners">
+              <li>Fresh Lemonade</li>
+              <li>$3.00</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Egg Cream</li>
+              <li>$3.00</li>
+              <p></p>
+         </ul>
+         <ul class="inliners">
+              <li>Iced Coffee</li>
+              <li>$2.55</li>
+              <p></p>
+         </ul>
       </ul>
 
     </section>
