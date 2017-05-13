@@ -8,7 +8,11 @@ section{
 }
 
 body{
+  font-family:PT Mono;
   background:url("../images/brickwall2.png");
+}
+body h2 p {
+    font-family:PT Mono;
 }
 
 /*
@@ -54,25 +58,18 @@ nav{
   text-align: center;
   border-bottom: 1px solid black;
 }
-nav ul{
-  list-style-type: none;
-}
-nav ul li{
+nav a{
 
-  display: inline;
-  padding: 50px;
-
-}
-nav ul li a{
-  margin: 20px;
   text-decoration: none;
   font-weight: bold;
+  font-family:PT Mono;
   font-size: 1.2em;
   text-transform: uppercase;
-
 }
-h2{
-  font-size: 2em;
+nav button{
+    margin:6px;
+    font-family:PT Mono;
+    font-size: 6em;
 }
 /*to hide the drop down options*/
 .hidden{
