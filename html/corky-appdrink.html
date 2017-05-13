@@ -14,18 +14,9 @@
   <link rel="stylesheet" type="text/css" href="../css/template2.css">
     <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
 
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-menu.css"/>
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/dropdown.css"/>
-
-
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="../js/dropdown.js"></script>
 
-  <link rel="stylesheet" href="../css/corky-slideshow.css">/
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="../scripts/corky-slideshow.js"></script>
 
  <script>
 
@@ -49,35 +40,34 @@
   <header>
     <!--Banner at the top of the page-->
     <section id="banner">
-      <figure id="figure1">
 
-      <img src ="../images/coffe.png" alt="coffe cup">
-      </figure>
       <h1>CORKY'S</h1>
       <h2>DINER</h2>
 
     </section>
+ </header>
 
 
-    <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-    <nav>
-        <div class="container">
-        <a href="corky-home.html"><button>Home</button></a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Menu</button>
+<section id="background">
+<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
+
+<nav class="desktop">
+      <ul>
+        <li><a href="corky-home.html">Home</a></li>
+
+          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-dinner.html">Dinner</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </div>
-        <a href="corky-about.html"><button>About Us</button></a>
-        <a href="corky-contact.html"><button>Contact Us</button></a>
-      </div>
+        </li>
+        <li><a href="corky-about.html">About Us</a></li>
+        <li><a href="corky-contact.html">Contact Us</a></li>
+      </ul>
     </nav>
-  </header>
 
-<section id="background">
   <main>
     <h2>Appitizers</h2>
     <section>
