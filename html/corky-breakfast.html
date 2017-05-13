@@ -12,10 +12,16 @@
 	<!--CSS Scripts-->
   <link rel="stylesheet" media="screen" type="text/css" href="../css/template2.css"/>
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-breakfast.css"/>
+<<<<<<< HEAD
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>
   <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-menu.css"/>
   <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
  <link rel="stylesheet" type="text/css" href="../css/template2.css">
+=======
+  <!--<link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>-->
+  <!--<link rel="stylesheet" media="screen" type="text/css" href="../css/corky-menu.css"/>-->
+
+>>>>>>> 0b1d29b57f405c3b447463b034a6827ab69c35c5
 
 	<!--Javascript-->
   <script src="../js/dropdown.js"></script>
@@ -55,31 +61,31 @@
         <h1>Corky's Diner</h1>
       </section>
 
+  </header>
+
+<section id="background">
 		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-	<nav>
-        <div class="container">
-        <a href="corky-home.html"><button>Home</button></a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Menu</button>
+	<nav class="desktop">
+      <ul>
+        <li><a href="corky-home.html">Home</a></li>
+
+          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </div>
-        <a href="corky-about.html"><button>About Us</button></a>
-        <a href="corky-contact.html"><button>Contact Us</button></a>
-      </div>
+        </li>
+        <li><a href="corky-about.html">About Us</a></li>
+        <li><a href="corky-contact.html">Contact Us</a></li>
+      </ul>
     </nav>
-</header>
 
-<section id="background">
+
   <main>
   	<h2>Breakfast Served All Day</h2>
 
 
-  <section id="eggs" >
-    <button id="eggPlaters">Fresh Egg Platers</button>
 
   <section id="eggs">
 
@@ -131,8 +137,10 @@
       </ul>
     </section>
 
-    <section id="egg_sandwich">
+  <section id="egg_sandwich">
 
+    <section id="eggs" >
+      <button id="sandwichbutt">Egg Sandwiches</button>
 
    <ul id="sandwichlist" class="hidden">
       <caption>Extra chesese .50&cent; • Extra egg .75&cent; • Extra wrap $1.00</caption>

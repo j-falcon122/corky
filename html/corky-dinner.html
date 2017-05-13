@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Corky's Diner - Dinner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="keywords" content="Corky's Diner, Diner, Food, Grand Concourse"/>
+  <meta name="description" content="Corky's Diner is a restuarant that provides quality meals at an affordable price in the Grand Concourse area"/>
+  <meta name="author" content="Kadeem Weetom, Jorden, Erina"/>
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta charset="UTF-8"/>
+
+
+  <!--CSS Scripts-->
+  <link rel="stylesheet" type="text/css" href="../css/template2.css">
+ <!-- <link rel="stylesheet" type="text/css" href="../css/corky-home.css">-->
+  <link rel="stylesheet" type="text/css" href="../css/corky-menu.css">
+<!--  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">-->
+  <link rel="stylesheet" type="text/css" href="../css/corky-breakfast.css">
+
+
+  <!--Javascript-->
+  <script src="../js/dropdown.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+    (document).ready(function(){
+     $("#blue-plate").click(function(){
+      $("#blue-plate-options").toggle();
+      });
+    });
+  </script>
+</head>
+<body>
+<header>
+    <!--Banner at the top of the page-->
+    <section id="banner">
+
+      <h1>CORKY'S</h1>
+      <h2>DINER</h2>
+
+    </section>
+
+    <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
+   <nav>
+        <div class="container">
+        <a href="corky-home.html"><button>Home</button></a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Menu</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="corky-breakfast.html">Breakfast</a>
+            <a href="corky-lunch.html">Lunch</a>
+            <a href="corky-dinner.html">Dinner</a>
+            <a href="corky-appdrink.html">Appitizers and Drinks</a>
+          </div>
+        </div>
+        <a href="corky-about.html"><button>About Us</button></a>
+        <a href="corky-contact.html"><button>Contact Us</button></a>
+      </div>
+    </nav>
+  </header>
+<section id="background">
+    <main>
+      <h2>Dinner</h2>
+
+  <section id="blue_plate">
+    <button id="blue-plate-button">Blue PLate Specials</button>
+    <ul id="blue-plate-options" class="hidden foodlist">
+      <li>
+        <ul class="inliners">
+            <li>Grilled Pork Chops</li>
+            <li>$9.95</li>
+            <p>w/ potato and vegetables</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Fried Chicken</li>
+            <li>$7.95</li>
+            <p>w/french fries and salad</p>
+        </ul>
+      </li>
+       <li>
+        <ul class="inliners">
+            <li>Chicken Parmigiana</li>
+            <li>$8.95</li>
+            <p>w/ spaghetti</p>
+        </ul>
+      </li>
+      <li>
+        <ul class="inliners">
+            <li>Meat Loaf</li>
+            <li>$8.95</li>
+            <p>w/ mashed potato and vegetables</p>
+        </ul>
+      </li>
+         <li>
+        <ul class="inliners">
+            <li>Rib Eye Steak</li>
+            <li>$14.95</li>
+            <p>w/ mashed potato and vegetables</p>
+        </ul>
+      </li>
+        <li>
+        <ul class="inliners">
+            <li>Fried Fish Fillet</li>
+            <li>$9.95</li>
+            <p>w/ mashed potato and vegetables</p>
+        </ul>
+      </li>
+         <li>
+        <ul class="inliners">
+            <li>Virginia Ham</li>
+            <li>$8.95</li>
+            <p>w/ mashed potato and vegetables</p>
+       </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Broiled chopped sirloin Steak</li>
+            <li>$8.95</li>
+            <p>w/ potato and vegetables</p>
+       </ul>
+        </li>
+        <li>
+        <ul class="inliners">
+            <li>Broiled Tilapia or Salmon</li>
+            <li>$11.95</li>
+            <p>w/  potato and vegetables</p>
+       </ul>
+        </li>
+    </ul>
+  </section>
+
+
+  </main>
+</section>
+
+<footer>
+    <!--Copywrite info here-->
+    <p>&copy;2017 Corky's Diner</p>
+    <a href="https://www.facebook.com/pages/Corkys-Restaurant/119690134713576" target="_blank" id="fblink"><img src="../images/fb.png"></a>
+  </footer>
+
+</body>
+</html>

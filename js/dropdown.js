@@ -4,6 +4,9 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+
+$(document).ready(function(){
+
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
@@ -12,16 +15,11 @@ window.onclick = function(e) {
         myDropdown.classList.remove('show');
       }
   }
-
-  function showHideNav(){
-      var nav = document.getElementById("mobilebutton");
-      if(nav.className === "mobile"){
-          console.log("will hide now");
-          nav.setAttribute("class", "mobilehide");
-      }
-      else{
-          console.log("will show now");
-          nav.setAttribute("class", "mobile");
-      }
-  }
 }
+});
+
+
+//$('#mobilebutton').click(function() {
+  //$(this).toggleClass('expanded').siblings('div').slideToggle();
+//});
+

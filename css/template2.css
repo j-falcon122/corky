@@ -3,6 +3,7 @@
     padding:0;
   }
   body{
+
       background-color: #FFFFFF;
   }
 .mobile{
@@ -36,31 +37,13 @@
     }
   a{
     display: block;
+
+    background:url("../images/background3.jpg");
+
   }
-
-a{
-  /*background: #eee;*/
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 1px solid #ddd;
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  &:hover, &:active, &:focus
-    background: darken(#eee, 3%);
-}
-
 @media only screen and (max-width: 738px) {
 
-  .mobile{
-    display: block;
-  }
-  .mobilehide{
-    display: none;
-  }
-  .desktop{
-    display: none;
-  }
+
   a{
     background-color: #eee;
   }
@@ -106,32 +89,35 @@ footer{
 
 }
 @media only screen and (min-width: 738px){
-  .mobile{
-    display: none;
-  }
-  .desktop{
-    display: block;
-  }
-  body{
+
+body{
     max-width: 100%;
     overflow-x: hidden;
   }
-  header{
+header{
       text-align: center;
   }
+nav{
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
 
 ul {
     list-style-type: none;
     width: 100%;
-    margin: auto;
+    margin: 0 30%;
     padding: 0;
+    text-align: center;
     overflow: hidden;
-    background-color: orange;
+    /*background-color: orange;*/
 }
 
 li {
     float: left;
-    margin: auto;
+    width: auto;
+    padding:10vp;
 }
 
 li a, .dropbtn {
@@ -180,6 +166,7 @@ li.dropdown {
     margin-bottom: 0%;
     background-color:orange;
     text-align: center;
+    padding:1em 0 1em 0;
     border-top:solid 2px #FFFFFF;
     font-style: italic;
     color: white;
@@ -190,15 +177,12 @@ li.dropdown {
       height:70px;
       border:0;
   }
-  footer a{
-
-  }
 
   #banner{
     background-image: url("../images/food/trasparentcolor-image.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height:250px;
+    height:auto;
 
 
   }
@@ -227,5 +211,11 @@ li.dropdown {
     text-align: center;
     font-size:3em;
     padding-top: 18px;
+  }
+
+  #background{
+  background-color: white;
+  border-radius:10px;
+  margin: 40px;
   }
 }
