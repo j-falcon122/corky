@@ -21,6 +21,9 @@ body{
   background-size: cover;
 
 }
+.inliners{
+  padding: 5px 0px;
+}
 .hidden{
   background-color: #FFFFFF;
   list-style-type:none;
@@ -29,6 +32,8 @@ body{
   margin: 0 auto;
   margin-top:-2%;
   text-align: left;
+  height:100px;
+  overflow-y: auto;
  }
 
 
