@@ -1,4 +1,25 @@
+body{
+  font-family: PT Mono;
+}
+header{
+  height: 350px;
+}
+#banner h1{
+
+  font-family: Abril Fatface;
+  margin-top: 5px;
+  font-size: 7em;
+
+}
+#banner h2{
+  font-size: 5em;
+}
+#background a{
+font-family: PT Mono;
+}
+
 .wrapper{
+  font-family: PT Mono;
   width: 75%;
   margin: auto;
   text-align: center;
@@ -7,6 +28,12 @@
 .wrapper h2{
   margin-top: 5%;
   text-align: center;
+}
+figure figcaption{
+  font-size: 2em;
+}
+#addr{
+  font-size:2.5em;
 }
 
 div img{

@@ -8,11 +8,15 @@
 	<meta name="author" content="Kadeem Weetom, Jorden, Erina"/>
 	<meta name="robots" content="noindex, nofollow"/>
 	<meta charset="UTF-8"/>
-
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
 
 	<!--<link rel="stylesheet" media="screen" type="text/css" href="../css/corky-home.css"/>-->
-  <link rel="stylesheet" media="screen" type="text/css" href="../css/template2.css"/>
+  <link rel="stylesheet" media="screen" type="text/css" href="../css/template.css"/>
   <link rel="stylesheet" type="text/css" href="../css/corky-about.css">
+  <link rel="stylesheet" type="text/css" href="../css/corky-home.css">
+  <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
+
+
 
 
 
@@ -22,35 +26,35 @@
 
 </head>
 <body>
-<header>
-      <!--Banner at the top of the page-->
+  <header>
+    <!--Banner at the top of the page-->
     <section id="banner">
-      <figure id="figure1">
-      </figure>
+
       <h1>CORKY'S</h1>
       <h2>DINER</h2>
 
     </section>
-</header>
-
-<section id="background">
-		<!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-		<nav class="desktop">
-      <ul>
-        <li><a href="corky-home.html">Home</a></li>
-
-          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
+  </header>
+  <section id="background">
+    <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
+     <nav>
+        <div class="container">
+        <a href="corky-home.html">Home</a>
+        <div class="dropdown">
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
             <a href="corky-dinner.html">Dinner</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </li>
-        <li><a href="corky-about.html">About Us</a></li>
-        <li><a href="corky-contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+        </div>
+        <a href="corky-about.html">About Us</a>
+        <a href="corky-contact.html">Contact Us</a>
+      </div>
+      <section id="formenu">
+      <button class="dropbtn" id="menubutton" onclick="myFunction()">Menu</button>
+    </section>
+     </nav>
 
    <!-- <nav class="mobile" >
       <button id="mobilebutton">Toggle</button>
@@ -67,7 +71,7 @@
 	<main>
 
     <section class="wrapper">
-		  <h2>About Cork's Diner</h2>
+		  <h2>About Corky's Diner</h2>
 
 		  <!--Background info about corky's diner. history, work ethics, etc-->
 
@@ -83,8 +87,8 @@
       </figure>
       <div id="addr">
         <address>
-  			  Address: 2537 Grand Concourse, Bronx, NY 10468 <br>
-  			  Phone: (718) 933-2484
+  			  2537 Grand Concourse, Bronx, NY 10468 <br>
+  			  (718) 933-2484
   		  </address>
       </div>
     </section>>

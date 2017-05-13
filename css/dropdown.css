@@ -1,27 +1,41 @@
 header{
     text-align: center;
 }
+nav{
+  width: 100%;
+  margin:5px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
 nav .container{
     width: 100%;
     margin: auto;
+
 }
 .container {
     overflow: hidden;
     font-family: Arial;
+      border-bottom: 1px solid black;
 }
 
 .container a {
-    float: left;
-    font-size: 1.2em;
-    color: black;
-    padding: 0 4%;
-    margin:20px;
-    text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:PT Mono;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: black;
 }
-
 .dropdown {
     float: left;
     overflow: hidden;
+}
+
+.hidden{
+  display: none;
+}
+ul .hidden{
+  display: none
 }
 
 .dropdown .dropbtn {
