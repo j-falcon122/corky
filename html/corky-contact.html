@@ -22,7 +22,7 @@
 	<!--Javascript-->
 
 	  <link rel="stylesheet" media="screen" type="text/css" href="../css/corky-contact.css"/>
-    <link rel="stylesheet" media="screen" type="text/css" href="../css/template2.css"/>
+>
 
 
 
@@ -42,24 +42,30 @@
 
     </section>
 </header>
-<section id="background"
-    <!--Navagation bar, Broken into Home, Breakfast, Lunch, Drinks, About, Contact -->
-     <nav class="desktop">
-      <ul>
-        <li><a href="corky-home.html">Home</a></li>
+<section id="background">
 
-          <li class="dropdown"><a href = "javascript:void(0)" onclick="myFunction()" class="dropbtn">Menu</a>
+     <nav>
+        <div class="container">
+        <a href="corky-home.html">Home</a>
+        <a href="corky-about.html">About Us</a>
+        <a href="corky-contact.html">Contact Us</a>
+        </div>
+
+        <div class="dropdown">
           <div class="dropdown-content" id="myDropdown">
             <a href="corky-breakfast.html">Breakfast</a>
             <a href="corky-lunch.html">Lunch</a>
             <a href="corky-dinner.html">Dinner</a>
             <a href="corky-appdrink.html">Appitizers and Drinks</a>
           </div>
-        </li>
-        <li><a href="corky-about.html">About Us</a></li>
-        <li><a href="corky-contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+        </div>
+
+          <section id="formenu">
+          <button class="dropbtn" id="menubutton" onclick="myFunction()">Menu</button>
+
+        </section>
+
+         </nav>
 
 <main>
 	<h2>How to Get in Touch? </h2>

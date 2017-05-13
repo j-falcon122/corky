@@ -19,6 +19,21 @@ footer img{
     height:70px;
     border:0;
 }
+
+nav .container{
+      width: 100%;
+      margin:5px;
+      margin: auto;
+      text-align: center;
+      border-bottom: 1px solid white;
+
+  }
+
+  nav button{
+        margin:6px;
+        font-family:PT Mono;
+
+    }
 #images{
 
   text-align: center;
@@ -38,6 +53,12 @@ width: 4em;
 height: 4em;
 
 }
+.container {
+  overflow: hidden;
+  font-family:PT Mono;
+  display:inline-block;
+
+}
 #banner{
   background-image: url("../images/food/trasparentcolor-image.png");
   opacity: 0.9;
@@ -46,7 +67,12 @@ height: 4em;
   height:250px;
   margin-bottom: 150px;
 }
-
+#background{
+background-color: white;
+border-radius:10px;
+margin: 40px;
+margin-top:-70px;
+}
 
 
 

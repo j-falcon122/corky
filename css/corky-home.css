@@ -15,129 +15,98 @@ body h2 p {
     font-family:PT Mono;
 }
 
-/*
-section iframe{
-  margin: 0 auto;
-  frameborder="0" ;
-  border:0;
-}*/
 
-nav .container{
-      width: 100%;
-      margin:5px;
-      margin: auto;
-      text-align: center;
-      border-bottom: 1px solid white;
+#formenu{
+border-bottom: 1px solid black;
+text-align: center;
+padding: 2px
 
-  }
-
-  nav button{
-        margin:6px;
-        font-family:PT Mono;
-
-    }
-    .container {
-          overflow: hidden;
-          font-family:PT Mono;
-          display:inline-block;
-
-      }
-      #formenu{
-        border-bottom: 1px solid black;
-        text-align: center;
-        padding: 2px
-
-      }
-      #menubutton{
-        font-family:PT Mono;
-        font-size: 2em;
-        padding: 10px;
-        border: 3px solid black;
-        border-radius: 12px;
-        background-color: white;
-      }
-      .container a {
-        text-decoration: none;
-        font-weight: bold;
-        font-family:PT Mono;
-        font-size: 1.3em;
-        text-transform: uppercase;
-        color: black;
-
-      }
-      .container a {
-        text-decoration: none;
-        font-weight: bold;
-        font-family:PT Mono;
-        font-size: 1.3em;
-        text-transform: uppercase;
-        color: black;
-
-      }
-      .dropdown {
-          float: left;
-          overflow: hidden;
-
-      }
-      .hidden{
-          display: none;
-        }
-        ul .hidden{
-          display: none
-        }
-
-        .dropdown .dropbtn {
-            cursor: pointer;
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: black;
-            padding: 14px 16px;
-            background-color: inherit;
-        }
-
-
-        }
-        .container a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: inline-block;
-            text-align: center;
-        }
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-        .show {
-            display: block;
-        }
-
-        .wrapper{
-          margin: 0 3 0 3;
-        }
-
-
-#background{
-background-color: white;
-border-radius:10px;
-margin: 40px;
-margin-top:-70px;
 }
+#menubutton{
+font-family:PT Mono;
+font-size: 2em;
+padding: 10px;
+border: 3px solid black;
+border-radius: 12px;
+background-color: white;
+}
+.container a {
+text-decoration: none;
+font-weight: bold;
+font-family:PT Mono;
+font-size: 1.3em;
+text-transform: uppercase;
+color: black;
+
+}
+.container a {
+text-decoration: none;
+font-weight: bold;
+font-family:PT Mono;
+font-size: 1.3em;
+text-transform: uppercase;
+color: black;
+
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+.hidden{
+  display: none;
+}
+ul .hidden{
+  display: none
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+
+}
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.wrapper{
+  margin: 0 3 0 3;
+}
+
+
+
 section location{
 
 margin:20px;
@@ -170,16 +139,7 @@ border: 5px solid black;
 }
 
 
-/*to hide the drop down options*/
 
-/*#mapcontainer{
-  text-align: center;
-  height: auto;
-}
-#map{
-  width: 600px;
-  height: 400px;
-}*/
 @media (max-width:700px) {
   #location figure{
     display: block;
