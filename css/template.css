@@ -3,7 +3,7 @@
    padding:0;
  }
  body{
-   background:url("../images/background67.jpg");
+   background:url("../images/brickwall.jpg");
    font-family: PT Mono;
  }
 footer{
@@ -61,8 +61,8 @@ height: 4em;
 }
 #banner{
   background-image: url("../images/banerfotoshop.png");
-  opacity: 0.9;
-  background-size: 100%;
+/*  opacity: 1;
+*/  background-size: 100%;
   background-repeat: no-repeat;
   height:250px;
   margin-bottom: 100px;
@@ -70,10 +70,11 @@ height: 4em;
   width: 100%
 }
 #background{
-background-color: white;
+background-image: url("../images/paper.jpg");
 border-radius:10px;
 margin: 40px;
 margin-top:-70px;
+margin-bottom: 50px;
 }
 
 
